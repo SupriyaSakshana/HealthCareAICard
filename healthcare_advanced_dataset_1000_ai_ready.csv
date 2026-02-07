@@ -1,0 +1,1001 @@
+user_id,age,gender,symptoms,condition,lifestyle,recommendation_item,rating,doctor_visit_freq,bmi,blood_pressure,sugar_level
+1,26,Male,fatigue thirst frequent urination,Diabetes,Moderate,Insulin,3,5,24.9,117/79,156
+2,41,Male,breathing problem wheezing,Migraine,Moderate,Sumatriptan,3,6,26.0,124/82,128
+3,40,Male,fever cough headache,Hypertension,Active,Losartan,3,3,22.9,127/80,159
+4,37,Male,nausea light sensitivity,Diabetes,Active,Insulin,3,2,30.4,113/73,151
+5,64,Male,high bp headache,Hypertension,Active,Amlodipine,5,1,29.9,138/85,192
+6,19,Male,fever cough headache,Asthma,Active,Inhaler,2,5,18.2,122/82,103
+7,21,Male,breathing problem wheezing,Migraine,Sedentary,Sumatriptan,4,0,33.4,113/80,127
+8,41,Male,fatigue thirst frequent urination,Asthma,Sedentary,Salbutamol,4,0,29.5,115/77,136
+9,65,Female,fever cough headache,Diabetes,Active,Insulin,5,1,27.1,112/70,162
+10,51,Female,fatigue thirst frequent urination,Asthma,Active,Inhaler,2,4,21.8,138/81,116
+11,18,Female,nausea light sensitivity,Hypertension,Sedentary,Amlodipine,1,3,20.3,139/89,87
+12,36,Male,fever cough headache,Flu,Sedentary,Cough Syrup,2,1,21.1,132/83,96
+13,66,Female,nausea light sensitivity,Heart Disease,Sedentary,Statin,4,3,28.1,136/73,179
+14,24,Female,nausea light sensitivity,Migraine,Sedentary,Ibuprofen,4,2,33.8,129/79,156
+15,37,Female,fatigue thirst frequent urination,Diabetes,Sedentary,Insulin,1,2,22.8,114/81,138
+16,60,Male,fatigue thirst frequent urination,Migraine,Moderate,Ibuprofen,5,3,30.6,123/80,189
+17,53,Female,fever cough headache,Diabetes,Active,Insulin,2,2,27.4,134/84,120
+18,31,Male,fatigue thirst frequent urination,Heart Disease,Active,Aspirin,3,1,18.4,139/90,159
+19,35,Female,high bp headache,Flu,Moderate,Cough Syrup,2,3,29.7,132/79,70
+20,61,Female,fever cough headache,Asthma,Active,Salbutamol,4,0,25.8,133/74,159
+21,70,Male,chest pain dizziness,Hypertension,Sedentary,Losartan,2,5,20.0,119/79,81
+22,66,Male,fever cough headache,Diabetes,Active,Insulin,3,1,23.6,112/80,127
+23,49,Male,fatigue thirst frequent urination,Asthma,Sedentary,Salbutamol,4,5,18.9,113/78,85
+24,62,Male,fatigue thirst frequent urination,Heart Disease,Moderate,Aspirin,5,2,28.1,135/83,119
+25,59,Female,breathing problem wheezing,Flu,Sedentary,Paracetamol,5,0,26.1,134/73,193
+26,25,Female,fever cough headache,Migraine,Active,Sumatriptan,4,3,19.1,122/87,134
+27,44,Male,high bp headache,Asthma,Sedentary,Salbutamol,4,3,31.8,128/72,190
+28,52,Female,chest pain dizziness,Heart Disease,Moderate,Statin,1,4,34.6,122/73,172
+29,61,Male,fatigue thirst frequent urination,Heart Disease,Sedentary,Aspirin,4,2,33.6,131/84,89
+30,32,Male,nausea light sensitivity,Migraine,Active,Sumatriptan,1,1,26.9,110/80,112
+31,58,Female,fever cough headache,Migraine,Active,Ibuprofen,4,2,24.0,129/70,159
+32,33,Male,fatigue thirst frequent urination,Migraine,Active,Sumatriptan,3,5,31.3,123/77,146
+33,63,Male,fever cough headache,Flu,Active,Cough Syrup,1,5,19.6,132/88,128
+34,34,Female,chest pain dizziness,Heart Disease,Moderate,Statin,5,0,20.1,114/81,91
+35,69,Male,nausea light sensitivity,Flu,Moderate,Paracetamol,4,4,30.1,125/81,125
+36,70,Male,fatigue thirst frequent urination,Hypertension,Sedentary,Amlodipine,1,1,32.8,110/85,87
+37,36,Male,high bp headache,Hypertension,Sedentary,Amlodipine,3,5,32.7,128/83,121
+38,57,Male,nausea light sensitivity,Hypertension,Sedentary,Amlodipine,4,3,22.6,113/84,89
+39,29,Female,high bp headache,Flu,Sedentary,Cough Syrup,4,2,19.2,121/81,110
+40,21,Female,chest pain dizziness,Hypertension,Moderate,Losartan,4,2,23.0,120/70,138
+41,34,Female,nausea light sensitivity,Diabetes,Moderate,Metformin,2,5,31.8,122/82,144
+42,44,Female,breathing problem wheezing,Asthma,Active,Inhaler,5,4,33.5,128/82,70
+43,38,Female,high bp headache,Migraine,Sedentary,Sumatriptan,3,6,29.3,119/88,158
+44,46,Male,breathing problem wheezing,Migraine,Sedentary,Sumatriptan,2,1,20.1,123/82,199
+45,54,Female,nausea light sensitivity,Migraine,Sedentary,Ibuprofen,3,3,25.3,117/78,83
+46,32,Male,breathing problem wheezing,Diabetes,Sedentary,Insulin,5,0,29.0,126/83,106
+47,29,Male,high bp headache,Asthma,Sedentary,Inhaler,1,3,26.1,127/74,182
+48,64,Female,breathing problem wheezing,Migraine,Active,Ibuprofen,3,6,25.9,110/82,186
+49,70,Female,fatigue thirst frequent urination,Heart Disease,Moderate,Aspirin,3,0,27.9,137/70,80
+50,35,Male,chest pain dizziness,Heart Disease,Active,Aspirin,3,4,30.8,123/86,180
+51,44,Female,fever cough headache,Migraine,Active,Sumatriptan,1,5,27.8,140/83,173
+52,29,Male,fever cough headache,Migraine,Moderate,Sumatriptan,1,6,26.4,132/89,95
+53,28,Female,fever cough headache,Flu,Active,Cough Syrup,1,1,24.6,118/76,142
+54,56,Female,high bp headache,Hypertension,Moderate,Losartan,5,3,25.7,111/75,70
+55,36,Female,breathing problem wheezing,Migraine,Sedentary,Sumatriptan,4,0,24.2,137/85,113
+56,28,Male,high bp headache,Flu,Moderate,Paracetamol,3,5,19.4,139/71,145
+57,54,Male,high bp headache,Asthma,Active,Inhaler,1,2,25.2,129/79,113
+58,53,Male,fatigue thirst frequent urination,Migraine,Moderate,Ibuprofen,4,5,22.4,118/78,83
+59,45,Female,breathing problem wheezing,Heart Disease,Sedentary,Statin,4,1,24.6,129/74,91
+60,25,Male,nausea light sensitivity,Hypertension,Active,Losartan,1,2,28.2,122/70,186
+61,52,Female,fatigue thirst frequent urination,Migraine,Moderate,Ibuprofen,3,2,31.6,134/76,114
+62,44,Male,chest pain dizziness,Asthma,Moderate,Inhaler,2,1,34.0,127/88,197
+63,33,Male,chest pain dizziness,Flu,Moderate,Cough Syrup,4,1,20.4,112/74,193
+64,53,Male,high bp headache,Diabetes,Active,Metformin,3,1,20.0,118/80,143
+65,21,Female,fatigue thirst frequent urination,Asthma,Moderate,Salbutamol,4,6,34.8,112/86,81
+66,39,Female,chest pain dizziness,Heart Disease,Active,Aspirin,5,2,20.3,125/75,97
+67,23,Male,fatigue thirst frequent urination,Diabetes,Active,Insulin,3,5,21.7,133/81,78
+68,45,Female,high bp headache,Migraine,Moderate,Sumatriptan,5,3,34.4,113/75,102
+69,44,Female,fever cough headache,Hypertension,Sedentary,Losartan,4,0,32.0,119/80,70
+70,67,Female,fatigue thirst frequent urination,Migraine,Active,Sumatriptan,5,5,27.3,133/78,142
+71,32,Female,nausea light sensitivity,Hypertension,Moderate,Losartan,5,1,29.9,126/86,102
+72,21,Female,fatigue thirst frequent urination,Heart Disease,Moderate,Aspirin,2,5,27.6,125/81,112
+73,22,Female,fatigue thirst frequent urination,Diabetes,Sedentary,Metformin,4,6,32.5,135/88,129
+74,56,Female,fever cough headache,Diabetes,Active,Insulin,3,6,32.0,131/80,120
+75,61,Female,high bp headache,Heart Disease,Moderate,Statin,4,5,28.5,126/73,74
+76,42,Female,nausea light sensitivity,Flu,Active,Paracetamol,2,6,34.0,140/87,101
+77,24,Female,fever cough headache,Migraine,Sedentary,Ibuprofen,3,3,30.5,131/86,164
+78,40,Female,fever cough headache,Flu,Sedentary,Cough Syrup,5,1,18.5,115/82,154
+79,32,Male,nausea light sensitivity,Asthma,Active,Salbutamol,4,2,32.6,116/90,89
+80,63,Female,nausea light sensitivity,Heart Disease,Sedentary,Statin,4,0,29.9,117/88,162
+81,68,Male,fever cough headache,Asthma,Sedentary,Salbutamol,1,5,30.9,113/77,166
+82,24,Female,high bp headache,Hypertension,Moderate,Amlodipine,4,0,29.6,126/90,197
+83,60,Male,chest pain dizziness,Diabetes,Active,Insulin,2,2,31.4,127/85,142
+84,19,Female,nausea light sensitivity,Flu,Moderate,Paracetamol,5,2,32.2,139/81,83
+85,27,Female,high bp headache,Migraine,Sedentary,Ibuprofen,2,2,34.3,120/77,156
+86,34,Male,fatigue thirst frequent urination,Diabetes,Active,Metformin,5,5,21.3,112/80,112
+87,60,Male,nausea light sensitivity,Heart Disease,Active,Statin,4,0,26.7,115/78,198
+88,43,Female,fever cough headache,Migraine,Sedentary,Ibuprofen,2,2,28.3,131/81,106
+89,39,Female,high bp headache,Asthma,Sedentary,Salbutamol,4,2,23.5,112/90,181
+90,19,Male,fatigue thirst frequent urination,Hypertension,Active,Losartan,2,0,23.1,112/90,150
+91,24,Male,chest pain dizziness,Hypertension,Sedentary,Losartan,1,6,21.9,119/78,82
+92,29,Female,high bp headache,Flu,Moderate,Cough Syrup,3,4,22.0,112/79,86
+93,38,Male,fatigue thirst frequent urination,Diabetes,Active,Metformin,4,1,30.8,131/89,104
+94,24,Female,breathing problem wheezing,Heart Disease,Moderate,Statin,3,4,25.1,122/75,116
+95,32,Female,chest pain dizziness,Heart Disease,Sedentary,Aspirin,1,1,34.7,120/70,109
+96,37,Male,chest pain dizziness,Diabetes,Sedentary,Metformin,3,2,22.5,113/73,180
+97,59,Female,nausea light sensitivity,Flu,Sedentary,Paracetamol,4,6,34.1,113/85,139
+98,31,Male,fatigue thirst frequent urination,Diabetes,Moderate,Metformin,4,6,29.6,111/75,113
+99,53,Male,high bp headache,Migraine,Sedentary,Sumatriptan,3,2,21.8,133/75,100
+100,27,Male,fever cough headache,Migraine,Sedentary,Ibuprofen,4,0,18.8,131/84,88
+101,29,Male,breathing problem wheezing,Asthma,Sedentary,Salbutamol,5,4,34.0,125/80,73
+102,26,Male,high bp headache,Hypertension,Sedentary,Amlodipine,1,0,26.0,110/90,158
+103,28,Female,high bp headache,Heart Disease,Sedentary,Aspirin,4,4,22.4,130/83,173
+104,34,Female,chest pain dizziness,Heart Disease,Sedentary,Statin,4,6,26.4,125/73,94
+105,68,Male,chest pain dizziness,Heart Disease,Active,Statin,2,3,33.2,115/83,95
+106,52,Male,nausea light sensitivity,Asthma,Moderate,Inhaler,5,5,28.7,134/71,119
+107,28,Male,breathing problem wheezing,Flu,Active,Paracetamol,1,4,33.8,116/78,103
+108,27,Female,chest pain dizziness,Diabetes,Sedentary,Insulin,4,3,23.3,114/82,101
+109,27,Male,fatigue thirst frequent urination,Asthma,Moderate,Salbutamol,3,6,29.6,111/84,200
+110,56,Male,nausea light sensitivity,Diabetes,Active,Insulin,3,2,32.2,136/71,119
+111,38,Female,high bp headache,Asthma,Active,Salbutamol,2,5,20.1,129/78,71
+112,38,Male,breathing problem wheezing,Heart Disease,Moderate,Statin,5,0,21.7,123/76,160
+113,46,Female,nausea light sensitivity,Diabetes,Active,Insulin,1,0,18.3,139/78,122
+114,32,Male,nausea light sensitivity,Heart Disease,Moderate,Aspirin,4,6,20.9,129/81,161
+115,28,Female,breathing problem wheezing,Flu,Moderate,Paracetamol,1,1,20.6,111/88,103
+116,70,Female,fever cough headache,Migraine,Sedentary,Sumatriptan,5,0,27.3,114/76,82
+117,54,Female,fatigue thirst frequent urination,Diabetes,Moderate,Metformin,3,2,30.2,116/85,122
+118,51,Male,fatigue thirst frequent urination,Migraine,Sedentary,Sumatriptan,1,3,29.8,120/73,122
+119,69,Female,breathing problem wheezing,Migraine,Active,Sumatriptan,5,3,26.4,123/88,125
+120,43,Male,breathing problem wheezing,Asthma,Moderate,Salbutamol,3,5,33.3,125/86,106
+121,29,Female,breathing problem wheezing,Diabetes,Sedentary,Insulin,3,4,24.6,118/88,117
+122,48,Female,chest pain dizziness,Heart Disease,Active,Statin,3,6,34.4,138/88,84
+123,56,Female,nausea light sensitivity,Hypertension,Moderate,Losartan,1,1,33.3,129/76,113
+124,35,Male,fever cough headache,Migraine,Active,Sumatriptan,5,2,21.6,112/86,142
+125,32,Female,high bp headache,Heart Disease,Sedentary,Aspirin,5,0,30.7,124/88,168
+126,32,Male,fatigue thirst frequent urination,Heart Disease,Active,Aspirin,1,0,32.9,114/82,190
+127,64,Male,chest pain dizziness,Flu,Sedentary,Paracetamol,5,2,21.9,127/79,148
+128,65,Male,high bp headache,Asthma,Sedentary,Inhaler,3,6,33.8,119/83,130
+129,64,Female,nausea light sensitivity,Heart Disease,Active,Aspirin,5,1,31.7,115/77,177
+130,39,Male,chest pain dizziness,Asthma,Moderate,Salbutamol,4,1,21.1,139/85,117
+131,63,Male,nausea light sensitivity,Heart Disease,Active,Statin,3,6,34.2,129/81,112
+132,35,Male,fatigue thirst frequent urination,Asthma,Active,Salbutamol,4,5,25.9,114/83,111
+133,26,Female,nausea light sensitivity,Flu,Active,Paracetamol,3,4,19.7,111/73,155
+134,63,Male,breathing problem wheezing,Asthma,Moderate,Inhaler,3,4,23.1,115/82,193
+135,59,Male,nausea light sensitivity,Migraine,Moderate,Ibuprofen,1,0,27.6,111/73,114
+136,49,Male,breathing problem wheezing,Hypertension,Moderate,Amlodipine,1,1,33.4,111/82,85
+137,43,Male,breathing problem wheezing,Flu,Moderate,Cough Syrup,2,5,18.6,140/77,158
+138,52,Male,nausea light sensitivity,Asthma,Moderate,Salbutamol,1,4,18.3,132/74,89
+139,52,Male,fatigue thirst frequent urination,Diabetes,Moderate,Metformin,2,4,31.8,134/81,122
+140,20,Female,fatigue thirst frequent urination,Flu,Active,Cough Syrup,2,3,24.6,132/82,142
+141,64,Female,nausea light sensitivity,Migraine,Active,Sumatriptan,4,3,30.5,114/72,78
+142,41,Male,high bp headache,Migraine,Active,Sumatriptan,3,2,19.2,112/79,95
+143,31,Female,fatigue thirst frequent urination,Diabetes,Active,Metformin,5,2,19.6,131/81,126
+144,20,Male,breathing problem wheezing,Flu,Active,Paracetamol,1,0,28.9,114/77,88
+145,20,Female,nausea light sensitivity,Asthma,Moderate,Salbutamol,1,3,20.0,122/80,84
+146,23,Female,breathing problem wheezing,Migraine,Moderate,Ibuprofen,4,1,30.3,133/74,194
+147,70,Female,breathing problem wheezing,Migraine,Moderate,Sumatriptan,3,6,34.7,126/85,189
+148,69,Female,high bp headache,Migraine,Moderate,Sumatriptan,5,4,21.9,116/78,200
+149,35,Male,fever cough headache,Migraine,Sedentary,Ibuprofen,5,2,32.4,134/88,96
+150,27,Female,breathing problem wheezing,Hypertension,Moderate,Losartan,3,4,31.2,123/80,186
+151,33,Male,nausea light sensitivity,Diabetes,Sedentary,Insulin,2,0,20.1,118/87,175
+152,58,Female,breathing problem wheezing,Migraine,Active,Sumatriptan,5,0,19.6,127/87,73
+153,67,Male,chest pain dizziness,Heart Disease,Moderate,Aspirin,2,6,20.7,134/81,183
+154,50,Female,chest pain dizziness,Migraine,Sedentary,Ibuprofen,3,6,27.3,114/76,131
+155,29,Male,fever cough headache,Heart Disease,Sedentary,Statin,4,3,24.5,135/78,126
+156,59,Female,breathing problem wheezing,Asthma,Moderate,Salbutamol,2,1,33.3,126/72,190
+157,67,Female,breathing problem wheezing,Flu,Sedentary,Paracetamol,5,4,28.2,122/72,176
+158,67,Female,fever cough headache,Heart Disease,Moderate,Aspirin,5,4,19.4,128/80,84
+159,34,Male,high bp headache,Flu,Active,Paracetamol,2,4,20.3,115/84,81
+160,33,Male,breathing problem wheezing,Diabetes,Moderate,Insulin,5,4,28.9,127/89,141
+161,47,Male,fever cough headache,Flu,Moderate,Cough Syrup,4,5,30.1,115/75,132
+162,52,Male,chest pain dizziness,Hypertension,Active,Losartan,1,3,21.3,129/71,129
+163,59,Female,high bp headache,Migraine,Sedentary,Sumatriptan,4,6,32.0,131/78,187
+164,36,Male,breathing problem wheezing,Flu,Active,Cough Syrup,4,4,22.3,125/87,191
+165,26,Male,fatigue thirst frequent urination,Hypertension,Active,Losartan,5,3,34.6,132/84,145
+166,18,Male,chest pain dizziness,Asthma,Moderate,Inhaler,2,4,29.6,132/88,183
+167,61,Female,breathing problem wheezing,Migraine,Sedentary,Sumatriptan,5,6,33.2,129/70,170
+168,49,Female,chest pain dizziness,Flu,Sedentary,Paracetamol,1,1,18.1,118/90,90
+169,62,Male,high bp headache,Flu,Moderate,Paracetamol,4,1,28.4,125/89,195
+170,27,Male,chest pain dizziness,Asthma,Moderate,Inhaler,1,2,27.4,139/83,83
+171,18,Female,fever cough headache,Heart Disease,Moderate,Aspirin,1,4,19.5,121/76,142
+172,65,Male,nausea light sensitivity,Migraine,Active,Ibuprofen,2,1,34.5,131/82,140
+173,54,Female,fever cough headache,Asthma,Sedentary,Inhaler,4,2,23.7,134/89,141
+174,70,Male,breathing problem wheezing,Flu,Sedentary,Cough Syrup,5,4,29.8,112/72,134
+175,24,Female,fatigue thirst frequent urination,Hypertension,Active,Amlodipine,5,1,23.7,137/85,124
+176,56,Female,chest pain dizziness,Hypertension,Active,Amlodipine,5,5,24.4,121/76,131
+177,58,Female,breathing problem wheezing,Migraine,Sedentary,Ibuprofen,4,0,21.6,120/89,107
+178,55,Male,fatigue thirst frequent urination,Hypertension,Moderate,Amlodipine,2,1,25.0,136/86,164
+179,51,Female,high bp headache,Asthma,Moderate,Salbutamol,5,5,24.9,129/75,99
+180,32,Female,fatigue thirst frequent urination,Migraine,Active,Ibuprofen,1,2,19.0,119/70,151
+181,35,Female,high bp headache,Heart Disease,Moderate,Statin,1,1,32.1,133/74,145
+182,28,Male,breathing problem wheezing,Flu,Active,Cough Syrup,2,5,34.5,129/72,146
+183,39,Female,nausea light sensitivity,Migraine,Sedentary,Sumatriptan,4,4,28.6,115/74,153
+184,18,Male,breathing problem wheezing,Migraine,Sedentary,Ibuprofen,1,5,27.6,131/78,123
+185,39,Female,high bp headache,Migraine,Sedentary,Ibuprofen,2,4,27.5,131/84,102
+186,57,Female,fever cough headache,Migraine,Active,Ibuprofen,4,4,23.7,140/86,143
+187,50,Female,fatigue thirst frequent urination,Asthma,Moderate,Inhaler,5,6,19.5,119/74,165
+188,64,Female,fatigue thirst frequent urination,Diabetes,Moderate,Insulin,3,3,28.8,134/77,193
+189,64,Male,chest pain dizziness,Diabetes,Active,Insulin,5,3,18.4,119/86,94
+190,54,Male,fatigue thirst frequent urination,Diabetes,Active,Insulin,1,0,23.0,130/88,197
+191,53,Male,chest pain dizziness,Asthma,Moderate,Salbutamol,1,3,25.8,130/74,175
+192,18,Male,nausea light sensitivity,Diabetes,Sedentary,Insulin,3,5,26.3,129/81,88
+193,29,Female,chest pain dizziness,Flu,Sedentary,Cough Syrup,1,0,30.7,119/71,113
+194,36,Female,breathing problem wheezing,Flu,Sedentary,Paracetamol,5,4,30.9,139/82,128
+195,63,Female,nausea light sensitivity,Asthma,Sedentary,Salbutamol,5,5,28.8,140/74,107
+196,49,Female,nausea light sensitivity,Migraine,Active,Ibuprofen,4,2,25.5,110/78,126
+197,43,Female,high bp headache,Flu,Active,Paracetamol,1,5,25.7,116/90,81
+198,20,Female,fatigue thirst frequent urination,Migraine,Sedentary,Sumatriptan,5,3,33.6,127/80,130
+199,43,Male,high bp headache,Heart Disease,Active,Statin,2,2,27.4,124/89,159
+200,32,Male,fever cough headache,Heart Disease,Moderate,Aspirin,5,6,23.7,113/82,95
+201,67,Female,high bp headache,Diabetes,Active,Insulin,3,3,30.4,134/90,86
+202,60,Male,fever cough headache,Asthma,Moderate,Inhaler,1,0,21.7,125/85,97
+203,49,Female,high bp headache,Heart Disease,Sedentary,Aspirin,1,6,32.1,118/83,127
+204,26,Male,fever cough headache,Flu,Sedentary,Paracetamol,2,3,30.5,132/86,187
+205,70,Female,breathing problem wheezing,Flu,Sedentary,Paracetamol,1,1,20.3,134/85,156
+206,61,Female,chest pain dizziness,Heart Disease,Moderate,Aspirin,2,3,31.2,122/78,101
+207,46,Female,nausea light sensitivity,Asthma,Moderate,Salbutamol,4,5,29.1,127/79,196
+208,62,Male,breathing problem wheezing,Diabetes,Sedentary,Insulin,2,5,18.8,115/74,167
+209,31,Male,fever cough headache,Hypertension,Sedentary,Amlodipine,5,3,24.2,137/79,92
+210,59,Male,nausea light sensitivity,Heart Disease,Active,Statin,4,4,31.6,113/72,129
+211,34,Male,chest pain dizziness,Asthma,Moderate,Inhaler,5,0,28.1,131/73,84
+212,52,Male,breathing problem wheezing,Asthma,Moderate,Inhaler,5,4,29.0,128/89,139
+213,43,Female,nausea light sensitivity,Asthma,Sedentary,Salbutamol,2,6,34.8,115/71,162
+214,54,Female,high bp headache,Heart Disease,Moderate,Aspirin,4,4,21.9,138/83,196
+215,50,Male,chest pain dizziness,Heart Disease,Sedentary,Statin,4,1,29.0,116/79,151
+216,44,Female,nausea light sensitivity,Migraine,Active,Ibuprofen,5,0,19.3,117/82,88
+217,30,Female,fatigue thirst frequent urination,Flu,Active,Cough Syrup,5,0,27.7,125/77,173
+218,61,Male,fever cough headache,Migraine,Active,Sumatriptan,5,0,27.4,126/71,160
+219,52,Female,fever cough headache,Migraine,Sedentary,Ibuprofen,1,6,31.8,118/77,137
+220,57,Female,high bp headache,Flu,Active,Paracetamol,5,0,34.4,123/78,145
+221,66,Female,fatigue thirst frequent urination,Hypertension,Active,Amlodipine,1,2,25.9,138/77,95
+222,19,Male,chest pain dizziness,Heart Disease,Sedentary,Aspirin,5,4,24.9,135/89,167
+223,35,Female,fatigue thirst frequent urination,Hypertension,Moderate,Amlodipine,2,1,20.3,129/80,155
+224,36,Male,fatigue thirst frequent urination,Asthma,Moderate,Salbutamol,3,5,30.3,121/72,150
+225,60,Female,breathing problem wheezing,Asthma,Active,Inhaler,5,1,21.2,118/73,187
+226,43,Male,high bp headache,Asthma,Active,Inhaler,2,0,18.1,125/79,70
+227,61,Female,breathing problem wheezing,Heart Disease,Moderate,Statin,3,0,32.4,120/87,114
+228,65,Male,fever cough headache,Asthma,Active,Inhaler,4,2,19.9,135/84,190
+229,46,Female,fatigue thirst frequent urination,Flu,Sedentary,Paracetamol,3,4,25.2,135/85,88
+230,46,Female,chest pain dizziness,Diabetes,Sedentary,Metformin,3,0,32.3,136/87,124
+231,70,Female,chest pain dizziness,Heart Disease,Active,Aspirin,1,4,30.1,113/72,98
+232,34,Female,fatigue thirst frequent urination,Diabetes,Moderate,Metformin,3,3,34.5,137/75,198
+233,20,Female,nausea light sensitivity,Hypertension,Active,Losartan,1,2,30.3,128/71,112
+234,62,Female,nausea light sensitivity,Diabetes,Sedentary,Insulin,5,0,30.6,119/74,122
+235,20,Male,fatigue thirst frequent urination,Heart Disease,Sedentary,Aspirin,2,4,23.0,131/85,134
+236,44,Female,fatigue thirst frequent urination,Flu,Active,Cough Syrup,4,2,24.6,133/88,139
+237,61,Male,fever cough headache,Heart Disease,Active,Statin,3,6,29.6,132/71,198
+238,41,Female,fever cough headache,Asthma,Moderate,Inhaler,2,2,25.2,123/90,116
+239,66,Female,nausea light sensitivity,Asthma,Sedentary,Inhaler,2,4,24.8,138/82,70
+240,20,Male,fatigue thirst frequent urination,Diabetes,Active,Metformin,2,2,18.3,138/88,175
+241,68,Male,nausea light sensitivity,Migraine,Sedentary,Sumatriptan,1,0,33.4,130/72,80
+242,29,Male,high bp headache,Flu,Sedentary,Cough Syrup,2,2,23.4,130/79,163
+243,67,Male,breathing problem wheezing,Flu,Moderate,Paracetamol,1,3,29.3,130/72,100
+244,33,Female,breathing problem wheezing,Diabetes,Moderate,Insulin,2,2,27.7,121/71,158
+245,41,Female,breathing problem wheezing,Diabetes,Sedentary,Insulin,5,3,29.8,118/76,70
+246,69,Female,chest pain dizziness,Heart Disease,Sedentary,Aspirin,2,0,29.8,118/70,131
+247,34,Male,chest pain dizziness,Diabetes,Moderate,Metformin,1,3,20.0,137/80,190
+248,43,Male,chest pain dizziness,Migraine,Active,Sumatriptan,3,4,25.2,120/73,140
+249,29,Female,breathing problem wheezing,Heart Disease,Sedentary,Aspirin,3,3,32.8,117/73,97
+250,58,Female,fever cough headache,Hypertension,Moderate,Amlodipine,4,6,20.7,126/81,70
+251,39,Male,nausea light sensitivity,Heart Disease,Sedentary,Aspirin,3,0,21.1,126/88,93
+252,55,Female,high bp headache,Diabetes,Moderate,Insulin,3,1,27.4,140/75,108
+253,31,Male,fever cough headache,Heart Disease,Active,Aspirin,1,6,25.8,129/90,105
+254,70,Male,fever cough headache,Hypertension,Active,Losartan,4,6,33.6,112/80,125
+255,30,Female,high bp headache,Diabetes,Sedentary,Insulin,2,3,26.7,112/70,92
+256,39,Male,high bp headache,Asthma,Sedentary,Salbutamol,2,0,22.2,121/83,195
+257,65,Male,nausea light sensitivity,Flu,Moderate,Cough Syrup,1,5,25.2,121/76,126
+258,37,Male,high bp headache,Heart Disease,Moderate,Aspirin,2,3,31.6,129/87,91
+259,40,Female,fatigue thirst frequent urination,Hypertension,Active,Losartan,5,4,23.3,135/89,156
+260,42,Female,nausea light sensitivity,Heart Disease,Active,Aspirin,5,2,33.7,129/72,72
+261,65,Female,nausea light sensitivity,Diabetes,Moderate,Insulin,3,4,22.4,136/81,96
+262,37,Male,nausea light sensitivity,Diabetes,Active,Insulin,4,2,32.2,130/86,170
+263,34,Male,chest pain dizziness,Migraine,Active,Ibuprofen,2,6,34.5,139/89,117
+264,38,Female,chest pain dizziness,Flu,Moderate,Cough Syrup,4,2,22.5,114/71,138
+265,55,Female,fever cough headache,Hypertension,Active,Amlodipine,3,0,30.9,117/80,166
+266,49,Male,breathing problem wheezing,Asthma,Active,Inhaler,5,5,34.5,137/80,113
+267,19,Female,nausea light sensitivity,Asthma,Active,Salbutamol,1,0,26.7,137/81,93
+268,57,Male,high bp headache,Heart Disease,Moderate,Aspirin,4,0,27.5,126/73,130
+269,68,Female,nausea light sensitivity,Diabetes,Active,Metformin,4,5,21.1,112/86,145
+270,27,Male,breathing problem wheezing,Flu,Moderate,Cough Syrup,4,2,32.2,122/72,70
+271,55,Male,nausea light sensitivity,Migraine,Sedentary,Sumatriptan,1,5,20.4,130/79,108
+272,26,Male,high bp headache,Diabetes,Moderate,Metformin,5,2,23.8,117/73,197
+273,66,Female,fatigue thirst frequent urination,Heart Disease,Sedentary,Statin,1,0,34.1,121/73,139
+274,47,Female,chest pain dizziness,Hypertension,Active,Amlodipine,1,5,23.9,112/89,142
+275,54,Female,nausea light sensitivity,Migraine,Active,Ibuprofen,3,0,26.8,137/80,139
+276,37,Female,high bp headache,Diabetes,Sedentary,Insulin,2,0,23.6,139/83,84
+277,46,Male,fever cough headache,Heart Disease,Moderate,Aspirin,2,2,18.5,140/80,143
+278,53,Male,fever cough headache,Flu,Moderate,Cough Syrup,4,3,25.9,110/82,105
+279,63,Female,nausea light sensitivity,Asthma,Active,Inhaler,5,1,18.5,110/90,98
+280,68,Female,chest pain dizziness,Hypertension,Moderate,Losartan,1,4,22.2,119/71,118
+281,58,Female,chest pain dizziness,Asthma,Moderate,Salbutamol,5,2,18.5,126/78,119
+282,58,Male,breathing problem wheezing,Heart Disease,Active,Aspirin,5,4,31.6,122/89,191
+283,23,Female,chest pain dizziness,Migraine,Moderate,Ibuprofen,5,3,32.0,131/88,161
+284,62,Male,breathing problem wheezing,Asthma,Sedentary,Inhaler,5,6,31.5,129/73,156
+285,35,Female,nausea light sensitivity,Hypertension,Active,Losartan,1,3,28.0,140/79,108
+286,38,Male,chest pain dizziness,Asthma,Sedentary,Salbutamol,3,0,25.3,111/71,144
+287,60,Female,chest pain dizziness,Heart Disease,Active,Aspirin,2,5,18.5,114/87,107
+288,19,Male,fever cough headache,Diabetes,Active,Metformin,4,2,24.8,126/70,152
+289,18,Male,nausea light sensitivity,Flu,Active,Cough Syrup,5,5,24.4,118/90,156
+290,29,Male,fatigue thirst frequent urination,Asthma,Moderate,Salbutamol,1,3,22.1,125/71,118
+291,29,Female,fatigue thirst frequent urination,Migraine,Sedentary,Ibuprofen,2,5,27.4,127/87,73
+292,23,Male,chest pain dizziness,Flu,Moderate,Paracetamol,5,3,30.8,138/70,170
+293,60,Female,chest pain dizziness,Migraine,Moderate,Sumatriptan,3,1,29.3,131/75,149
+294,59,Male,fever cough headache,Migraine,Active,Sumatriptan,3,6,21.4,111/79,192
+295,54,Male,fever cough headache,Flu,Sedentary,Cough Syrup,5,1,34.5,129/86,191
+296,39,Female,nausea light sensitivity,Hypertension,Active,Losartan,2,1,33.2,125/87,115
+297,31,Male,fever cough headache,Flu,Active,Paracetamol,3,1,23.9,136/82,92
+298,66,Male,chest pain dizziness,Flu,Sedentary,Paracetamol,4,2,24.0,124/86,147
+299,69,Male,high bp headache,Flu,Sedentary,Paracetamol,5,3,18.6,139/85,94
+300,38,Male,fatigue thirst frequent urination,Flu,Sedentary,Cough Syrup,5,5,30.3,111/89,185
+301,39,Male,nausea light sensitivity,Diabetes,Sedentary,Metformin,1,1,33.9,121/70,117
+302,54,Male,chest pain dizziness,Migraine,Active,Sumatriptan,2,2,30.6,121/79,167
+303,48,Female,nausea light sensitivity,Diabetes,Sedentary,Insulin,4,5,23.5,138/90,170
+304,51,Male,nausea light sensitivity,Hypertension,Active,Amlodipine,3,4,33.8,135/80,121
+305,59,Female,high bp headache,Asthma,Sedentary,Inhaler,5,5,34.3,126/89,131
+306,31,Male,breathing problem wheezing,Diabetes,Moderate,Insulin,1,4,22.7,120/77,117
+307,52,Male,breathing problem wheezing,Asthma,Active,Salbutamol,1,4,18.1,129/74,127
+308,60,Female,fever cough headache,Heart Disease,Sedentary,Statin,5,5,21.9,140/72,123
+309,55,Female,high bp headache,Diabetes,Moderate,Metformin,1,5,19.7,138/89,70
+310,65,Female,breathing problem wheezing,Diabetes,Sedentary,Metformin,2,1,33.5,139/82,162
+311,34,Female,nausea light sensitivity,Migraine,Active,Ibuprofen,1,6,29.3,129/83,100
+312,45,Male,high bp headache,Hypertension,Sedentary,Losartan,2,1,27.9,115/78,132
+313,26,Male,nausea light sensitivity,Diabetes,Moderate,Insulin,2,6,33.9,123/88,191
+314,49,Female,fatigue thirst frequent urination,Heart Disease,Sedentary,Statin,1,6,25.8,113/76,108
+315,21,Male,high bp headache,Migraine,Sedentary,Ibuprofen,1,2,33.6,135/76,91
+316,45,Female,chest pain dizziness,Migraine,Moderate,Ibuprofen,3,5,18.5,132/87,166
+317,62,Female,breathing problem wheezing,Migraine,Moderate,Sumatriptan,5,6,24.7,120/71,175
+318,44,Female,chest pain dizziness,Heart Disease,Sedentary,Aspirin,5,2,29.1,114/79,161
+319,27,Female,fever cough headache,Diabetes,Sedentary,Insulin,1,6,23.7,111/80,137
+320,62,Female,chest pain dizziness,Asthma,Active,Inhaler,4,5,27.8,123/87,80
+321,54,Male,breathing problem wheezing,Asthma,Active,Inhaler,1,1,21.9,138/88,170
+322,47,Male,nausea light sensitivity,Migraine,Moderate,Sumatriptan,5,3,22.7,137/90,185
+323,33,Male,high bp headache,Diabetes,Active,Metformin,4,1,25.5,117/82,184
+324,53,Female,fatigue thirst frequent urination,Hypertension,Active,Amlodipine,1,3,27.9,114/79,192
+325,56,Male,nausea light sensitivity,Flu,Active,Cough Syrup,5,6,18.2,129/79,188
+326,54,Female,breathing problem wheezing,Hypertension,Moderate,Amlodipine,5,1,27.0,113/73,132
+327,57,Male,high bp headache,Hypertension,Sedentary,Amlodipine,1,0,20.8,124/85,122
+328,28,Male,breathing problem wheezing,Migraine,Moderate,Ibuprofen,1,3,35.0,131/82,169
+329,45,Female,breathing problem wheezing,Heart Disease,Moderate,Aspirin,4,0,27.1,137/74,147
+330,52,Female,fatigue thirst frequent urination,Flu,Active,Paracetamol,2,1,20.1,123/70,195
+331,47,Female,fatigue thirst frequent urination,Diabetes,Sedentary,Insulin,4,1,32.1,132/77,131
+332,38,Female,fever cough headache,Flu,Sedentary,Cough Syrup,2,4,20.2,126/87,94
+333,68,Male,high bp headache,Diabetes,Active,Metformin,3,4,22.8,128/79,158
+334,31,Male,high bp headache,Asthma,Active,Salbutamol,4,2,19.8,140/78,163
+335,58,Male,breathing problem wheezing,Flu,Active,Paracetamol,4,6,19.9,117/88,179
+336,53,Female,nausea light sensitivity,Diabetes,Sedentary,Insulin,5,3,23.3,125/70,108
+337,31,Male,fever cough headache,Heart Disease,Sedentary,Aspirin,4,3,19.9,133/70,191
+338,42,Male,fatigue thirst frequent urination,Heart Disease,Moderate,Aspirin,5,5,22.4,138/86,113
+339,40,Male,fever cough headache,Flu,Sedentary,Paracetamol,4,0,22.9,135/70,197
+340,60,Female,breathing problem wheezing,Heart Disease,Sedentary,Aspirin,3,2,30.5,119/89,145
+341,27,Male,fever cough headache,Diabetes,Moderate,Metformin,5,2,26.1,123/76,187
+342,51,Male,nausea light sensitivity,Diabetes,Active,Insulin,3,6,20.5,125/83,146
+343,34,Female,fatigue thirst frequent urination,Hypertension,Active,Losartan,2,0,30.1,123/74,161
+344,20,Female,nausea light sensitivity,Diabetes,Active,Metformin,2,5,30.2,139/81,81
+345,21,Male,breathing problem wheezing,Hypertension,Moderate,Losartan,4,1,21.7,129/82,95
+346,41,Male,chest pain dizziness,Flu,Sedentary,Paracetamol,1,2,19.9,117/87,154
+347,55,Female,nausea light sensitivity,Diabetes,Sedentary,Insulin,2,3,23.3,126/73,166
+348,50,Female,nausea light sensitivity,Flu,Moderate,Paracetamol,2,6,28.7,121/70,86
+349,66,Female,breathing problem wheezing,Hypertension,Moderate,Losartan,3,3,30.2,123/70,159
+350,52,Male,breathing problem wheezing,Migraine,Sedentary,Sumatriptan,3,6,31.4,138/85,184
+351,18,Female,fever cough headache,Hypertension,Sedentary,Amlodipine,1,6,25.4,124/74,144
+352,65,Female,chest pain dizziness,Diabetes,Sedentary,Insulin,4,6,28.9,121/74,74
+353,39,Male,chest pain dizziness,Diabetes,Moderate,Insulin,5,4,27.2,135/76,171
+354,54,Male,nausea light sensitivity,Asthma,Active,Inhaler,3,6,25.0,125/78,177
+355,57,Male,fatigue thirst frequent urination,Asthma,Sedentary,Inhaler,3,5,34.5,126/70,180
+356,46,Male,fatigue thirst frequent urination,Hypertension,Moderate,Losartan,3,3,23.7,123/88,186
+357,60,Male,fatigue thirst frequent urination,Hypertension,Moderate,Losartan,2,4,27.7,117/82,158
+358,25,Female,fever cough headache,Asthma,Sedentary,Salbutamol,4,1,24.4,129/74,141
+359,32,Female,breathing problem wheezing,Migraine,Active,Sumatriptan,5,0,19.3,118/81,188
+360,30,Male,fever cough headache,Heart Disease,Sedentary,Statin,3,5,29.4,117/84,176
+361,45,Male,high bp headache,Flu,Sedentary,Paracetamol,4,4,30.0,116/89,98
+362,38,Male,chest pain dizziness,Heart Disease,Sedentary,Statin,1,6,26.9,117/81,99
+363,50,Male,chest pain dizziness,Diabetes,Active,Metformin,4,5,32.7,131/79,100
+364,32,Male,high bp headache,Hypertension,Moderate,Losartan,5,3,19.8,124/90,72
+365,59,Male,nausea light sensitivity,Hypertension,Sedentary,Amlodipine,4,2,24.7,137/89,89
+366,65,Male,nausea light sensitivity,Asthma,Moderate,Inhaler,2,0,35.0,115/74,180
+367,60,Female,fatigue thirst frequent urination,Hypertension,Sedentary,Losartan,2,1,28.1,132/84,94
+368,67,Male,nausea light sensitivity,Diabetes,Active,Insulin,3,2,29.3,127/72,158
+369,50,Female,nausea light sensitivity,Asthma,Sedentary,Salbutamol,3,5,22.5,140/87,90
+370,19,Female,fatigue thirst frequent urination,Flu,Sedentary,Cough Syrup,5,3,18.7,111/80,112
+371,50,Female,chest pain dizziness,Migraine,Sedentary,Sumatriptan,3,2,18.4,125/87,154
+372,21,Female,chest pain dizziness,Migraine,Active,Sumatriptan,5,2,27.0,112/78,191
+373,31,Male,high bp headache,Hypertension,Active,Amlodipine,3,0,34.7,125/81,126
+374,68,Female,nausea light sensitivity,Diabetes,Sedentary,Metformin,2,6,22.2,139/84,177
+375,65,Female,chest pain dizziness,Flu,Moderate,Paracetamol,3,1,32.5,140/88,143
+376,60,Male,high bp headache,Heart Disease,Active,Statin,4,2,33.3,111/90,200
+377,38,Male,breathing problem wheezing,Asthma,Active,Salbutamol,4,0,25.9,130/80,81
+378,61,Female,fatigue thirst frequent urination,Heart Disease,Active,Aspirin,5,3,30.4,136/84,71
+379,27,Male,breathing problem wheezing,Heart Disease,Moderate,Statin,5,3,29.0,138/88,81
+380,25,Female,fatigue thirst frequent urination,Diabetes,Sedentary,Metformin,2,5,33.7,120/87,134
+381,31,Female,fatigue thirst frequent urination,Flu,Active,Paracetamol,2,3,31.8,125/85,93
+382,43,Male,breathing problem wheezing,Diabetes,Sedentary,Metformin,2,0,28.5,134/77,97
+383,53,Male,high bp headache,Flu,Sedentary,Cough Syrup,2,3,22.0,121/73,118
+384,30,Male,chest pain dizziness,Hypertension,Active,Losartan,3,4,33.7,118/87,184
+385,60,Female,fatigue thirst frequent urination,Diabetes,Active,Metformin,1,2,33.7,124/85,143
+386,26,Female,fatigue thirst frequent urination,Migraine,Moderate,Sumatriptan,2,2,31.7,113/84,198
+387,36,Female,high bp headache,Asthma,Active,Salbutamol,3,3,34.9,114/81,140
+388,70,Male,chest pain dizziness,Diabetes,Moderate,Metformin,3,5,29.7,133/73,108
+389,69,Male,fever cough headache,Heart Disease,Active,Aspirin,4,2,33.9,112/87,184
+390,48,Male,nausea light sensitivity,Heart Disease,Sedentary,Statin,3,2,33.2,115/84,105
+391,58,Male,nausea light sensitivity,Hypertension,Active,Losartan,1,2,22.9,139/80,143
+392,62,Male,breathing problem wheezing,Diabetes,Sedentary,Metformin,4,4,23.4,124/77,126
+393,30,Male,fatigue thirst frequent urination,Hypertension,Moderate,Amlodipine,3,3,25.9,134/71,105
+394,36,Female,fatigue thirst frequent urination,Hypertension,Sedentary,Amlodipine,2,4,34.8,134/81,114
+395,58,Male,fatigue thirst frequent urination,Diabetes,Active,Metformin,3,3,32.1,127/87,150
+396,18,Female,breathing problem wheezing,Diabetes,Active,Insulin,3,2,21.4,116/71,157
+397,18,Male,breathing problem wheezing,Asthma,Active,Salbutamol,3,0,30.9,119/81,169
+398,56,Male,fatigue thirst frequent urination,Heart Disease,Active,Statin,4,3,18.7,111/82,166
+399,47,Male,fatigue thirst frequent urination,Hypertension,Moderate,Losartan,5,3,24.5,111/87,85
+400,22,Female,fever cough headache,Flu,Sedentary,Cough Syrup,4,5,24.3,119/83,90
+401,18,Female,fever cough headache,Migraine,Sedentary,Ibuprofen,1,4,23.7,117/85,156
+402,41,Female,fatigue thirst frequent urination,Migraine,Sedentary,Sumatriptan,2,6,25.1,112/72,78
+403,38,Female,nausea light sensitivity,Hypertension,Moderate,Amlodipine,1,6,24.9,140/70,194
+404,69,Female,fatigue thirst frequent urination,Asthma,Sedentary,Salbutamol,1,4,32.2,129/75,78
+405,50,Female,breathing problem wheezing,Hypertension,Active,Losartan,1,3,19.6,136/83,104
+406,18,Male,fever cough headache,Heart Disease,Sedentary,Statin,5,0,26.8,112/73,167
+407,53,Male,fever cough headache,Diabetes,Moderate,Insulin,5,6,19.0,121/85,168
+408,57,Female,fever cough headache,Migraine,Active,Sumatriptan,3,5,26.0,138/71,181
+409,60,Female,breathing problem wheezing,Heart Disease,Active,Aspirin,4,5,33.0,116/76,138
+410,20,Female,breathing problem wheezing,Diabetes,Active,Insulin,2,1,21.5,130/82,173
+411,52,Male,high bp headache,Migraine,Sedentary,Sumatriptan,4,4,29.2,121/81,140
+412,63,Female,chest pain dizziness,Heart Disease,Active,Aspirin,2,1,24.3,138/76,75
+413,56,Male,fatigue thirst frequent urination,Flu,Moderate,Paracetamol,4,3,18.5,127/72,129
+414,65,Female,high bp headache,Migraine,Sedentary,Sumatriptan,4,0,22.0,110/82,110
+415,19,Female,breathing problem wheezing,Flu,Active,Cough Syrup,4,5,26.9,119/77,195
+416,38,Female,chest pain dizziness,Asthma,Sedentary,Salbutamol,1,6,25.9,121/89,99
+417,34,Female,nausea light sensitivity,Migraine,Sedentary,Ibuprofen,1,1,32.6,136/84,166
+418,53,Female,nausea light sensitivity,Asthma,Moderate,Inhaler,5,2,29.5,137/75,145
+419,52,Female,breathing problem wheezing,Diabetes,Sedentary,Metformin,1,5,30.2,117/77,193
+420,22,Female,chest pain dizziness,Diabetes,Active,Metformin,5,4,29.7,110/89,169
+421,26,Female,breathing problem wheezing,Hypertension,Active,Amlodipine,4,5,21.0,139/89,123
+422,54,Female,breathing problem wheezing,Diabetes,Moderate,Insulin,1,6,32.0,113/83,158
+423,48,Female,high bp headache,Heart Disease,Active,Aspirin,5,2,31.4,130/77,82
+424,19,Female,fever cough headache,Migraine,Active,Sumatriptan,3,2,23.8,110/73,112
+425,32,Male,fever cough headache,Flu,Active,Cough Syrup,3,6,32.8,125/71,87
+426,22,Male,fever cough headache,Flu,Moderate,Paracetamol,5,5,18.6,134/76,176
+427,62,Female,fever cough headache,Diabetes,Active,Metformin,2,6,32.0,131/70,70
+428,44,Male,breathing problem wheezing,Migraine,Sedentary,Ibuprofen,5,3,34.3,137/85,172
+429,36,Male,nausea light sensitivity,Migraine,Sedentary,Sumatriptan,3,2,27.1,116/81,149
+430,66,Male,high bp headache,Diabetes,Active,Insulin,2,3,24.4,121/83,130
+431,45,Male,chest pain dizziness,Flu,Sedentary,Cough Syrup,1,4,31.1,112/80,84
+432,70,Male,fever cough headache,Diabetes,Moderate,Metformin,3,6,19.3,117/70,90
+433,58,Female,nausea light sensitivity,Asthma,Active,Inhaler,5,0,18.6,112/82,175
+434,67,Female,breathing problem wheezing,Heart Disease,Sedentary,Aspirin,2,6,30.8,114/82,183
+435,23,Male,nausea light sensitivity,Hypertension,Sedentary,Amlodipine,5,0,18.4,117/86,117
+436,52,Female,fever cough headache,Diabetes,Moderate,Metformin,5,5,18.8,125/75,81
+437,55,Male,high bp headache,Migraine,Moderate,Ibuprofen,2,4,19.6,133/78,164
+438,34,Female,breathing problem wheezing,Heart Disease,Sedentary,Statin,1,1,32.7,124/85,177
+439,39,Female,breathing problem wheezing,Migraine,Moderate,Sumatriptan,2,0,25.3,110/78,76
+440,52,Female,high bp headache,Diabetes,Sedentary,Metformin,5,1,19.6,120/82,182
+441,31,Female,fever cough headache,Diabetes,Moderate,Insulin,4,1,31.5,118/83,74
+442,44,Female,chest pain dizziness,Heart Disease,Active,Aspirin,4,1,26.3,134/86,102
+443,26,Male,nausea light sensitivity,Asthma,Sedentary,Salbutamol,2,3,25.2,137/77,169
+444,35,Female,fever cough headache,Heart Disease,Sedentary,Aspirin,2,2,30.9,121/76,83
+445,69,Male,breathing problem wheezing,Hypertension,Moderate,Losartan,5,0,21.8,115/71,112
+446,57,Male,fatigue thirst frequent urination,Diabetes,Active,Metformin,5,0,27.3,127/78,176
+447,62,Male,fatigue thirst frequent urination,Hypertension,Active,Amlodipine,1,2,20.5,112/78,138
+448,46,Male,fatigue thirst frequent urination,Heart Disease,Active,Aspirin,3,6,28.2,124/70,195
+449,47,Male,fatigue thirst frequent urination,Hypertension,Active,Losartan,2,2,33.0,116/70,137
+450,22,Female,chest pain dizziness,Hypertension,Sedentary,Losartan,2,1,34.5,122/89,109
+451,25,Female,fatigue thirst frequent urination,Hypertension,Moderate,Losartan,1,0,22.2,131/76,160
+452,52,Male,fatigue thirst frequent urination,Hypertension,Sedentary,Amlodipine,2,0,33.5,121/78,135
+453,52,Female,fatigue thirst frequent urination,Heart Disease,Active,Aspirin,1,0,20.3,133/72,170
+454,35,Female,fever cough headache,Hypertension,Active,Amlodipine,3,6,32.6,133/81,105
+455,63,Male,breathing problem wheezing,Flu,Moderate,Paracetamol,4,2,19.7,138/88,104
+456,27,Female,fever cough headache,Heart Disease,Sedentary,Statin,2,6,34.1,131/89,127
+457,30,Male,nausea light sensitivity,Hypertension,Active,Amlodipine,3,2,19.1,133/73,71
+458,65,Male,nausea light sensitivity,Asthma,Sedentary,Inhaler,4,1,34.2,120/87,119
+459,49,Male,high bp headache,Hypertension,Active,Losartan,1,0,23.5,135/75,113
+460,22,Male,fatigue thirst frequent urination,Flu,Sedentary,Cough Syrup,4,5,22.9,124/78,143
+461,32,Male,fatigue thirst frequent urination,Asthma,Moderate,Inhaler,2,4,23.9,135/79,125
+462,66,Female,fever cough headache,Diabetes,Moderate,Metformin,3,5,33.2,128/85,146
+463,31,Female,high bp headache,Heart Disease,Active,Statin,2,1,32.9,137/79,121
+464,40,Male,breathing problem wheezing,Heart Disease,Active,Aspirin,1,3,29.9,120/85,94
+465,35,Male,chest pain dizziness,Flu,Active,Cough Syrup,3,2,27.1,123/89,156
+466,34,Female,nausea light sensitivity,Migraine,Sedentary,Ibuprofen,1,4,30.7,117/71,115
+467,59,Male,fever cough headache,Diabetes,Sedentary,Metformin,4,4,28.1,125/82,107
+468,43,Male,nausea light sensitivity,Migraine,Moderate,Ibuprofen,5,4,33.1,133/81,153
+469,65,Male,nausea light sensitivity,Hypertension,Sedentary,Losartan,4,0,27.9,124/90,104
+470,21,Male,fatigue thirst frequent urination,Asthma,Active,Salbutamol,5,3,19.8,131/70,154
+471,39,Male,fever cough headache,Heart Disease,Sedentary,Aspirin,2,4,33.0,135/84,100
+472,28,Female,chest pain dizziness,Asthma,Moderate,Salbutamol,1,2,20.8,130/84,124
+473,58,Male,breathing problem wheezing,Heart Disease,Active,Statin,4,1,30.4,114/78,179
+474,26,Female,breathing problem wheezing,Diabetes,Active,Metformin,1,0,33.4,131/87,139
+475,51,Female,chest pain dizziness,Heart Disease,Active,Statin,5,6,30.8,137/90,124
+476,22,Female,nausea light sensitivity,Hypertension,Sedentary,Amlodipine,2,0,29.9,113/87,125
+477,29,Female,breathing problem wheezing,Heart Disease,Moderate,Aspirin,5,1,28.6,113/75,185
+478,48,Male,high bp headache,Heart Disease,Moderate,Statin,2,5,27.0,111/71,149
+479,49,Female,nausea light sensitivity,Flu,Moderate,Cough Syrup,1,6,20.1,122/81,114
+480,21,Male,high bp headache,Asthma,Sedentary,Inhaler,3,0,31.3,129/75,160
+481,22,Male,breathing problem wheezing,Migraine,Moderate,Sumatriptan,1,6,19.3,136/90,159
+482,54,Female,breathing problem wheezing,Diabetes,Moderate,Metformin,3,6,28.7,134/77,162
+483,23,Female,chest pain dizziness,Flu,Sedentary,Cough Syrup,1,4,21.6,131/73,112
+484,45,Female,breathing problem wheezing,Heart Disease,Sedentary,Statin,4,0,25.6,111/85,181
+485,62,Male,nausea light sensitivity,Diabetes,Sedentary,Metformin,3,4,33.9,133/87,89
+486,52,Female,breathing problem wheezing,Diabetes,Moderate,Insulin,5,2,26.0,116/89,85
+487,24,Female,fatigue thirst frequent urination,Flu,Moderate,Cough Syrup,1,3,24.6,121/83,90
+488,56,Male,fever cough headache,Hypertension,Active,Losartan,1,5,34.3,117/70,115
+489,68,Male,nausea light sensitivity,Diabetes,Moderate,Metformin,2,2,25.7,114/83,140
+490,54,Male,fatigue thirst frequent urination,Hypertension,Active,Losartan,2,3,23.9,129/87,180
+491,38,Male,nausea light sensitivity,Heart Disease,Sedentary,Statin,3,4,25.4,116/77,82
+492,52,Female,fever cough headache,Diabetes,Moderate,Metformin,2,1,27.4,130/74,159
+493,55,Male,fever cough headache,Migraine,Sedentary,Ibuprofen,3,3,20.8,136/73,198
+494,59,Male,breathing problem wheezing,Asthma,Sedentary,Inhaler,1,4,31.6,131/79,76
+495,59,Female,nausea light sensitivity,Asthma,Moderate,Salbutamol,2,1,22.1,118/78,196
+496,33,Male,nausea light sensitivity,Flu,Active,Paracetamol,5,0,22.2,136/81,175
+497,24,Male,chest pain dizziness,Diabetes,Sedentary,Metformin,2,4,32.1,134/71,83
+498,39,Male,breathing problem wheezing,Flu,Active,Cough Syrup,1,4,30.9,130/87,159
+499,61,Male,nausea light sensitivity,Diabetes,Sedentary,Insulin,3,3,27.2,136/71,162
+500,62,Female,fatigue thirst frequent urination,Asthma,Sedentary,Salbutamol,3,6,25.3,123/70,177
+501,41,Female,fatigue thirst frequent urination,Migraine,Sedentary,Ibuprofen,5,6,32.3,127/90,181
+502,23,Male,chest pain dizziness,Diabetes,Sedentary,Metformin,4,2,25.9,124/88,199
+503,25,Male,fatigue thirst frequent urination,Asthma,Sedentary,Salbutamol,3,5,23.0,130/77,189
+504,21,Female,breathing problem wheezing,Diabetes,Active,Insulin,1,0,22.4,138/82,107
+505,40,Male,breathing problem wheezing,Heart Disease,Active,Aspirin,3,3,26.8,125/88,160
+506,24,Male,breathing problem wheezing,Diabetes,Active,Insulin,4,1,29.3,123/70,162
+507,56,Female,breathing problem wheezing,Flu,Moderate,Paracetamol,3,6,21.7,115/82,189
+508,53,Female,fatigue thirst frequent urination,Migraine,Active,Sumatriptan,1,6,30.9,112/71,127
+509,62,Female,breathing problem wheezing,Diabetes,Sedentary,Metformin,2,6,19.5,119/71,168
+510,35,Male,high bp headache,Hypertension,Sedentary,Losartan,5,5,20.0,122/82,117
+511,35,Female,nausea light sensitivity,Asthma,Active,Salbutamol,3,1,25.7,129/79,118
+512,64,Male,nausea light sensitivity,Migraine,Sedentary,Ibuprofen,3,1,20.7,138/90,184
+513,28,Male,nausea light sensitivity,Migraine,Sedentary,Sumatriptan,1,5,29.4,136/88,105
+514,31,Male,high bp headache,Asthma,Moderate,Inhaler,1,6,20.9,125/74,180
+515,31,Male,high bp headache,Flu,Sedentary,Cough Syrup,1,5,25.5,122/71,169
+516,22,Female,fever cough headache,Asthma,Active,Salbutamol,4,1,26.9,135/70,81
+517,69,Male,nausea light sensitivity,Flu,Active,Cough Syrup,5,1,24.3,116/75,146
+518,42,Female,fatigue thirst frequent urination,Heart Disease,Active,Aspirin,4,4,27.4,129/79,150
+519,57,Male,chest pain dizziness,Migraine,Active,Sumatriptan,3,4,31.5,129/90,110
+520,37,Female,chest pain dizziness,Migraine,Active,Ibuprofen,3,1,24.1,139/70,169
+521,35,Female,chest pain dizziness,Migraine,Active,Sumatriptan,1,3,19.1,118/80,194
+522,38,Male,fatigue thirst frequent urination,Hypertension,Moderate,Amlodipine,4,4,26.2,129/88,160
+523,52,Male,breathing problem wheezing,Diabetes,Active,Insulin,5,1,30.4,128/82,82
+524,67,Female,chest pain dizziness,Asthma,Moderate,Salbutamol,2,5,19.4,131/85,168
+525,34,Female,nausea light sensitivity,Diabetes,Moderate,Insulin,2,1,22.9,113/82,72
+526,48,Female,fever cough headache,Flu,Active,Paracetamol,1,1,19.8,121/83,187
+527,66,Female,chest pain dizziness,Asthma,Active,Inhaler,1,6,20.9,110/85,162
+528,55,Male,fever cough headache,Heart Disease,Active,Statin,5,4,20.7,135/78,113
+529,60,Male,high bp headache,Asthma,Active,Salbutamol,5,2,19.0,118/87,142
+530,67,Female,nausea light sensitivity,Diabetes,Active,Insulin,1,3,34.5,139/74,194
+531,24,Female,breathing problem wheezing,Diabetes,Sedentary,Metformin,2,0,29.3,133/71,101
+532,33,Male,fever cough headache,Diabetes,Active,Metformin,3,2,20.2,140/78,74
+533,39,Male,breathing problem wheezing,Flu,Sedentary,Paracetamol,1,1,22.2,119/73,154
+534,60,Male,chest pain dizziness,Asthma,Moderate,Salbutamol,1,1,23.1,116/88,136
+535,26,Male,fever cough headache,Heart Disease,Moderate,Statin,1,1,26.4,129/71,125
+536,67,Male,breathing problem wheezing,Hypertension,Sedentary,Losartan,4,2,25.4,136/79,149
+537,53,Male,breathing problem wheezing,Hypertension,Sedentary,Amlodipine,4,4,26.0,136/79,113
+538,63,Male,fever cough headache,Diabetes,Active,Metformin,1,0,25.6,136/74,197
+539,50,Female,chest pain dizziness,Flu,Active,Paracetamol,1,6,23.4,140/78,90
+540,45,Male,chest pain dizziness,Asthma,Active,Inhaler,2,0,20.9,124/85,76
+541,24,Male,chest pain dizziness,Migraine,Active,Ibuprofen,4,0,30.1,138/89,81
+542,26,Female,breathing problem wheezing,Hypertension,Active,Amlodipine,1,3,19.8,129/90,192
+543,23,Male,fever cough headache,Migraine,Sedentary,Ibuprofen,2,1,26.0,123/73,90
+544,55,Female,fever cough headache,Heart Disease,Sedentary,Statin,1,5,28.5,135/70,199
+545,45,Male,high bp headache,Asthma,Active,Inhaler,5,3,25.3,122/83,125
+546,39,Male,chest pain dizziness,Migraine,Moderate,Sumatriptan,4,0,32.3,139/85,99
+547,47,Female,high bp headache,Diabetes,Moderate,Metformin,5,3,31.7,135/81,106
+548,57,Male,chest pain dizziness,Flu,Moderate,Cough Syrup,5,2,27.5,125/79,199
+549,44,Female,chest pain dizziness,Asthma,Moderate,Salbutamol,3,2,27.6,130/85,149
+550,33,Male,fatigue thirst frequent urination,Diabetes,Sedentary,Insulin,1,4,30.2,113/75,119
+551,26,Female,nausea light sensitivity,Asthma,Moderate,Salbutamol,4,0,28.8,137/80,85
+552,59,Male,fatigue thirst frequent urination,Asthma,Sedentary,Inhaler,4,3,33.1,115/87,188
+553,56,Female,nausea light sensitivity,Diabetes,Sedentary,Metformin,3,6,31.2,131/75,86
+554,34,Female,fever cough headache,Flu,Active,Cough Syrup,4,2,26.8,127/81,161
+555,55,Male,high bp headache,Asthma,Active,Salbutamol,4,2,29.0,135/78,182
+556,68,Male,nausea light sensitivity,Heart Disease,Moderate,Aspirin,4,1,34.4,139/82,81
+557,45,Male,nausea light sensitivity,Flu,Moderate,Cough Syrup,2,3,27.4,140/70,194
+558,28,Female,nausea light sensitivity,Asthma,Active,Salbutamol,3,5,35.0,113/71,144
+559,29,Female,breathing problem wheezing,Asthma,Active,Salbutamol,4,6,19.9,136/82,100
+560,47,Male,fever cough headache,Migraine,Moderate,Sumatriptan,5,0,30.6,119/84,194
+561,69,Male,nausea light sensitivity,Heart Disease,Sedentary,Statin,3,1,28.2,112/80,70
+562,52,Female,nausea light sensitivity,Asthma,Moderate,Inhaler,2,1,20.3,121/74,133
+563,28,Male,fever cough headache,Asthma,Sedentary,Inhaler,2,3,24.6,122/84,182
+564,44,Male,breathing problem wheezing,Migraine,Sedentary,Ibuprofen,2,4,27.6,134/77,128
+565,26,Female,chest pain dizziness,Asthma,Active,Salbutamol,1,0,25.0,113/71,176
+566,40,Female,fever cough headache,Flu,Moderate,Paracetamol,1,1,33.4,119/76,116
+567,33,Female,fever cough headache,Diabetes,Active,Metformin,3,2,18.1,128/81,125
+568,46,Male,chest pain dizziness,Flu,Moderate,Cough Syrup,5,1,34.1,130/84,70
+569,34,Male,breathing problem wheezing,Hypertension,Active,Losartan,2,1,18.1,129/90,101
+570,27,Male,breathing problem wheezing,Hypertension,Sedentary,Losartan,1,2,24.4,134/76,122
+571,57,Male,fatigue thirst frequent urination,Asthma,Moderate,Inhaler,2,1,23.5,119/89,197
+572,47,Male,fever cough headache,Asthma,Sedentary,Inhaler,3,0,19.9,137/72,83
+573,41,Female,fatigue thirst frequent urination,Heart Disease,Moderate,Statin,3,2,32.9,122/82,171
+574,59,Female,chest pain dizziness,Hypertension,Sedentary,Losartan,5,1,27.6,119/79,70
+575,25,Male,nausea light sensitivity,Hypertension,Active,Amlodipine,5,4,31.4,128/86,165
+576,32,Male,fever cough headache,Asthma,Sedentary,Salbutamol,2,4,35.0,121/87,137
+577,36,Male,fever cough headache,Diabetes,Active,Insulin,1,6,28.5,112/86,107
+578,31,Male,breathing problem wheezing,Flu,Moderate,Paracetamol,5,4,19.9,130/78,109
+579,54,Male,breathing problem wheezing,Flu,Moderate,Cough Syrup,1,5,26.9,113/82,102
+580,38,Female,breathing problem wheezing,Migraine,Moderate,Sumatriptan,5,3,33.5,114/83,77
+581,33,Male,fatigue thirst frequent urination,Heart Disease,Sedentary,Aspirin,2,3,32.0,128/80,141
+582,57,Male,breathing problem wheezing,Diabetes,Sedentary,Insulin,5,5,20.3,136/79,164
+583,20,Female,breathing problem wheezing,Migraine,Sedentary,Sumatriptan,5,1,28.0,116/80,89
+584,40,Female,fever cough headache,Asthma,Sedentary,Salbutamol,2,1,20.9,124/84,165
+585,69,Female,nausea light sensitivity,Flu,Active,Cough Syrup,4,5,23.4,128/73,86
+586,18,Male,nausea light sensitivity,Migraine,Active,Ibuprofen,5,6,34.2,113/78,78
+587,56,Male,high bp headache,Diabetes,Active,Insulin,1,4,27.8,115/72,146
+588,69,Male,fever cough headache,Migraine,Moderate,Sumatriptan,2,6,31.1,121/71,200
+589,30,Male,nausea light sensitivity,Diabetes,Sedentary,Metformin,2,4,34.0,118/82,110
+590,34,Female,high bp headache,Hypertension,Sedentary,Losartan,4,5,29.8,132/75,99
+591,26,Female,high bp headache,Diabetes,Moderate,Insulin,1,2,34.0,124/82,186
+592,44,Male,chest pain dizziness,Diabetes,Sedentary,Insulin,3,6,26.8,130/88,150
+593,36,Female,breathing problem wheezing,Heart Disease,Active,Statin,2,4,24.9,117/79,124
+594,48,Male,fever cough headache,Hypertension,Moderate,Amlodipine,4,2,33.8,126/86,126
+595,40,Female,fatigue thirst frequent urination,Hypertension,Active,Amlodipine,1,0,27.0,118/74,170
+596,68,Male,nausea light sensitivity,Diabetes,Active,Metformin,2,3,19.9,134/73,165
+597,19,Female,high bp headache,Heart Disease,Sedentary,Aspirin,2,5,24.8,132/78,156
+598,37,Female,breathing problem wheezing,Heart Disease,Active,Aspirin,3,1,24.8,123/74,131
+599,38,Male,fever cough headache,Migraine,Active,Ibuprofen,5,1,31.0,110/81,114
+600,29,Male,nausea light sensitivity,Diabetes,Sedentary,Metformin,1,3,22.6,127/89,115
+601,42,Male,fatigue thirst frequent urination,Heart Disease,Moderate,Statin,5,1,18.1,123/80,141
+602,30,Male,fatigue thirst frequent urination,Hypertension,Active,Losartan,2,5,29.8,119/87,199
+603,56,Male,nausea light sensitivity,Migraine,Sedentary,Ibuprofen,3,1,20.4,113/76,106
+604,64,Male,high bp headache,Flu,Sedentary,Paracetamol,2,5,30.8,130/75,193
+605,60,Male,high bp headache,Diabetes,Active,Metformin,3,6,23.2,115/85,71
+606,23,Male,chest pain dizziness,Flu,Sedentary,Paracetamol,5,4,24.1,137/70,74
+607,38,Male,fever cough headache,Migraine,Moderate,Sumatriptan,4,6,20.3,111/70,198
+608,32,Male,fever cough headache,Diabetes,Active,Metformin,3,5,21.8,122/74,171
+609,51,Female,chest pain dizziness,Migraine,Active,Ibuprofen,3,2,28.4,133/90,121
+610,34,Male,chest pain dizziness,Asthma,Moderate,Salbutamol,5,5,32.0,128/70,198
+611,40,Male,chest pain dizziness,Asthma,Sedentary,Inhaler,1,2,28.1,110/83,171
+612,58,Male,high bp headache,Diabetes,Active,Metformin,5,5,27.7,139/83,100
+613,70,Male,breathing problem wheezing,Hypertension,Active,Amlodipine,1,2,31.9,116/83,75
+614,37,Female,breathing problem wheezing,Flu,Active,Cough Syrup,1,6,22.9,131/72,89
+615,41,Female,chest pain dizziness,Heart Disease,Active,Statin,3,4,29.8,118/90,127
+616,52,Female,chest pain dizziness,Heart Disease,Moderate,Statin,3,3,25.6,127/80,171
+617,45,Male,nausea light sensitivity,Asthma,Sedentary,Inhaler,5,1,24.4,139/71,143
+618,50,Male,fatigue thirst frequent urination,Diabetes,Moderate,Metformin,1,3,28.9,119/89,128
+619,59,Female,fatigue thirst frequent urination,Hypertension,Active,Amlodipine,1,6,30.1,130/71,113
+620,66,Female,fever cough headache,Flu,Moderate,Paracetamol,5,3,25.6,116/87,155
+621,18,Male,nausea light sensitivity,Diabetes,Sedentary,Insulin,1,5,25.2,124/73,195
+622,19,Male,high bp headache,Migraine,Sedentary,Sumatriptan,4,0,20.1,120/74,180
+623,58,Female,breathing problem wheezing,Heart Disease,Sedentary,Aspirin,1,3,34.5,121/77,114
+624,22,Female,high bp headache,Hypertension,Sedentary,Amlodipine,4,0,18.6,112/87,112
+625,65,Female,nausea light sensitivity,Diabetes,Active,Insulin,3,5,24.1,134/84,82
+626,24,Female,fatigue thirst frequent urination,Flu,Sedentary,Paracetamol,3,2,30.9,120/77,77
+627,65,Male,fatigue thirst frequent urination,Hypertension,Sedentary,Amlodipine,1,0,33.5,123/83,105
+628,23,Female,breathing problem wheezing,Migraine,Active,Ibuprofen,3,0,23.1,118/89,80
+629,68,Female,fever cough headache,Diabetes,Moderate,Insulin,1,3,28.1,133/74,120
+630,33,Male,nausea light sensitivity,Heart Disease,Moderate,Aspirin,2,4,26.2,138/88,191
+631,68,Female,fever cough headache,Heart Disease,Sedentary,Aspirin,2,0,21.8,123/80,193
+632,22,Female,fever cough headache,Flu,Active,Cough Syrup,5,2,19.2,134/76,141
+633,67,Female,nausea light sensitivity,Hypertension,Active,Amlodipine,4,4,32.5,114/80,157
+634,51,Male,nausea light sensitivity,Hypertension,Active,Amlodipine,4,6,20.4,128/89,200
+635,43,Female,breathing problem wheezing,Asthma,Moderate,Inhaler,5,5,25.8,136/84,117
+636,48,Female,fever cough headache,Asthma,Sedentary,Salbutamol,5,0,18.8,119/79,95
+637,37,Male,chest pain dizziness,Migraine,Active,Ibuprofen,4,0,20.4,114/71,87
+638,62,Female,fever cough headache,Asthma,Sedentary,Salbutamol,2,3,19.7,115/88,130
+639,33,Male,fatigue thirst frequent urination,Migraine,Moderate,Sumatriptan,1,1,19.8,127/88,83
+640,33,Male,high bp headache,Migraine,Moderate,Ibuprofen,5,3,20.8,127/89,127
+641,53,Female,fever cough headache,Heart Disease,Moderate,Aspirin,1,2,23.0,133/71,199
+642,43,Female,fatigue thirst frequent urination,Flu,Sedentary,Paracetamol,5,3,23.2,137/77,134
+643,60,Male,breathing problem wheezing,Diabetes,Active,Metformin,1,4,31.5,126/73,193
+644,62,Female,high bp headache,Migraine,Moderate,Sumatriptan,4,4,33.9,115/83,78
+645,65,Female,nausea light sensitivity,Flu,Moderate,Cough Syrup,3,3,18.8,139/90,90
+646,39,Male,nausea light sensitivity,Heart Disease,Moderate,Aspirin,4,1,22.3,139/81,77
+647,30,Female,nausea light sensitivity,Flu,Active,Paracetamol,1,4,28.9,127/72,134
+648,46,Male,fatigue thirst frequent urination,Heart Disease,Active,Aspirin,5,2,20.9,112/82,184
+649,38,Female,fever cough headache,Hypertension,Moderate,Amlodipine,1,2,19.5,120/82,87
+650,70,Female,fatigue thirst frequent urination,Diabetes,Active,Metformin,3,4,20.6,137/90,186
+651,20,Male,high bp headache,Diabetes,Active,Metformin,2,6,18.0,118/87,123
+652,32,Female,nausea light sensitivity,Heart Disease,Moderate,Statin,5,1,25.4,138/70,72
+653,21,Female,high bp headache,Hypertension,Moderate,Amlodipine,5,2,33.0,134/86,165
+654,41,Male,chest pain dizziness,Hypertension,Moderate,Amlodipine,1,1,29.8,138/83,136
+655,63,Female,fatigue thirst frequent urination,Heart Disease,Active,Statin,3,5,34.2,119/81,170
+656,19,Male,nausea light sensitivity,Diabetes,Sedentary,Metformin,5,3,20.9,120/78,189
+657,60,Male,nausea light sensitivity,Heart Disease,Moderate,Aspirin,4,2,33.2,116/83,128
+658,47,Male,nausea light sensitivity,Asthma,Sedentary,Salbutamol,4,4,23.3,124/86,106
+659,54,Female,chest pain dizziness,Diabetes,Active,Metformin,5,0,27.0,126/78,100
+660,21,Female,fatigue thirst frequent urination,Asthma,Moderate,Salbutamol,4,4,19.2,134/84,178
+661,64,Female,fatigue thirst frequent urination,Hypertension,Sedentary,Amlodipine,5,5,27.0,132/87,188
+662,18,Female,chest pain dizziness,Migraine,Moderate,Ibuprofen,5,5,22.4,122/74,168
+663,49,Male,chest pain dizziness,Diabetes,Sedentary,Metformin,1,5,31.7,111/88,120
+664,54,Female,fever cough headache,Diabetes,Moderate,Metformin,4,4,33.0,136/70,88
+665,30,Male,breathing problem wheezing,Asthma,Active,Inhaler,1,3,21.2,127/77,97
+666,48,Male,fatigue thirst frequent urination,Heart Disease,Sedentary,Statin,2,2,20.6,118/79,118
+667,57,Female,fever cough headache,Flu,Active,Paracetamol,1,6,24.7,115/71,72
+668,38,Female,breathing problem wheezing,Heart Disease,Moderate,Aspirin,1,6,22.9,117/77,85
+669,52,Male,breathing problem wheezing,Migraine,Active,Sumatriptan,1,4,31.4,123/87,179
+670,65,Male,breathing problem wheezing,Flu,Moderate,Paracetamol,2,1,32.2,130/88,115
+671,20,Female,nausea light sensitivity,Diabetes,Moderate,Metformin,1,5,22.2,112/89,130
+672,70,Female,fever cough headache,Hypertension,Active,Losartan,5,6,18.5,114/71,135
+673,38,Female,chest pain dizziness,Hypertension,Moderate,Amlodipine,2,0,25.9,138/89,189
+674,42,Female,fever cough headache,Flu,Sedentary,Paracetamol,3,6,23.5,120/75,160
+675,53,Male,chest pain dizziness,Heart Disease,Active,Aspirin,4,3,24.5,133/90,152
+676,60,Female,nausea light sensitivity,Asthma,Moderate,Salbutamol,5,2,23.8,135/90,107
+677,24,Male,fever cough headache,Heart Disease,Moderate,Statin,1,3,22.7,111/75,154
+678,28,Female,nausea light sensitivity,Hypertension,Active,Amlodipine,3,0,27.6,121/76,108
+679,69,Female,high bp headache,Hypertension,Active,Amlodipine,2,5,23.4,127/87,131
+680,42,Male,fever cough headache,Migraine,Moderate,Sumatriptan,2,2,23.3,139/77,98
+681,19,Female,high bp headache,Hypertension,Sedentary,Amlodipine,2,3,33.2,140/81,80
+682,37,Male,nausea light sensitivity,Asthma,Active,Salbutamol,3,0,28.6,117/83,121
+683,25,Female,breathing problem wheezing,Hypertension,Sedentary,Losartan,5,3,25.3,125/90,73
+684,32,Male,breathing problem wheezing,Diabetes,Active,Insulin,4,6,23.8,110/77,102
+685,57,Male,fever cough headache,Diabetes,Moderate,Metformin,1,5,26.5,137/74,131
+686,43,Male,nausea light sensitivity,Heart Disease,Moderate,Statin,5,5,32.5,113/88,145
+687,18,Female,breathing problem wheezing,Migraine,Active,Ibuprofen,1,6,25.4,124/72,130
+688,55,Female,nausea light sensitivity,Flu,Active,Paracetamol,4,1,28.7,113/79,124
+689,54,Female,breathing problem wheezing,Asthma,Active,Inhaler,4,0,23.7,133/78,176
+690,53,Female,nausea light sensitivity,Heart Disease,Sedentary,Statin,4,2,31.2,123/75,144
+691,37,Male,high bp headache,Diabetes,Sedentary,Insulin,4,3,33.7,117/84,131
+692,48,Female,chest pain dizziness,Hypertension,Active,Losartan,3,4,24.4,119/76,127
+693,25,Female,fatigue thirst frequent urination,Migraine,Active,Sumatriptan,5,0,19.2,135/86,152
+694,37,Male,breathing problem wheezing,Heart Disease,Moderate,Aspirin,4,3,20.3,116/80,130
+695,39,Male,fever cough headache,Diabetes,Active,Insulin,5,5,22.1,131/73,139
+696,59,Male,high bp headache,Asthma,Sedentary,Salbutamol,3,1,18.9,136/88,128
+697,26,Male,fever cough headache,Asthma,Active,Inhaler,4,6,33.6,134/90,190
+698,19,Male,fever cough headache,Heart Disease,Moderate,Aspirin,1,6,23.8,120/81,180
+699,51,Male,breathing problem wheezing,Hypertension,Active,Amlodipine,1,5,33.5,129/87,147
+700,55,Female,fever cough headache,Hypertension,Sedentary,Amlodipine,2,3,26.7,140/82,191
+701,22,Female,fatigue thirst frequent urination,Hypertension,Active,Amlodipine,2,4,22.5,115/79,100
+702,18,Female,nausea light sensitivity,Heart Disease,Active,Aspirin,4,5,27.2,124/70,154
+703,54,Male,fever cough headache,Hypertension,Sedentary,Losartan,5,2,21.0,127/90,127
+704,21,Female,fatigue thirst frequent urination,Migraine,Moderate,Sumatriptan,1,2,19.7,124/72,174
+705,54,Male,breathing problem wheezing,Heart Disease,Active,Aspirin,4,4,22.1,130/86,171
+706,23,Male,breathing problem wheezing,Migraine,Moderate,Sumatriptan,4,4,27.2,126/87,200
+707,56,Male,fatigue thirst frequent urination,Flu,Moderate,Paracetamol,5,2,21.3,139/74,195
+708,30,Female,breathing problem wheezing,Flu,Sedentary,Cough Syrup,3,4,34.0,124/81,181
+709,36,Male,fever cough headache,Heart Disease,Active,Aspirin,2,5,34.7,121/72,149
+710,52,Male,high bp headache,Asthma,Active,Inhaler,4,3,32.2,117/71,146
+711,58,Male,high bp headache,Flu,Moderate,Cough Syrup,4,2,32.8,127/89,88
+712,19,Male,nausea light sensitivity,Flu,Sedentary,Paracetamol,5,6,27.7,123/76,75
+713,63,Female,high bp headache,Hypertension,Active,Losartan,3,0,31.2,133/86,198
+714,53,Female,high bp headache,Hypertension,Active,Amlodipine,1,5,25.7,136/71,106
+715,25,Male,breathing problem wheezing,Diabetes,Active,Insulin,3,3,31.7,137/74,110
+716,69,Female,fatigue thirst frequent urination,Migraine,Sedentary,Sumatriptan,4,6,34.4,138/88,111
+717,34,Female,nausea light sensitivity,Flu,Moderate,Paracetamol,3,2,20.2,132/79,113
+718,26,Male,fever cough headache,Migraine,Moderate,Sumatriptan,2,3,21.5,135/72,99
+719,21,Female,fatigue thirst frequent urination,Migraine,Active,Sumatriptan,3,5,24.5,135/87,79
+720,66,Female,nausea light sensitivity,Heart Disease,Active,Statin,1,6,30.9,117/77,106
+721,70,Female,fever cough headache,Asthma,Moderate,Salbutamol,2,1,29.0,115/82,125
+722,48,Male,fever cough headache,Asthma,Moderate,Salbutamol,3,6,31.3,111/90,88
+723,61,Female,chest pain dizziness,Migraine,Active,Ibuprofen,5,6,32.1,129/85,172
+724,64,Male,fever cough headache,Hypertension,Sedentary,Losartan,1,5,32.4,116/72,175
+725,39,Male,high bp headache,Heart Disease,Moderate,Statin,2,3,28.1,113/88,183
+726,55,Female,high bp headache,Flu,Active,Paracetamol,3,6,18.4,111/75,177
+727,55,Male,fatigue thirst frequent urination,Migraine,Active,Ibuprofen,4,6,22.8,119/82,189
+728,20,Male,fatigue thirst frequent urination,Flu,Moderate,Cough Syrup,5,3,30.3,112/88,195
+729,51,Female,fatigue thirst frequent urination,Asthma,Moderate,Salbutamol,1,3,21.7,117/76,168
+730,18,Male,nausea light sensitivity,Migraine,Moderate,Sumatriptan,5,5,25.9,127/76,75
+731,52,Female,fever cough headache,Flu,Moderate,Cough Syrup,5,6,19.4,112/89,167
+732,43,Male,nausea light sensitivity,Asthma,Moderate,Salbutamol,2,5,34.7,136/75,72
+733,48,Male,fever cough headache,Heart Disease,Moderate,Aspirin,3,4,20.8,113/79,106
+734,29,Male,high bp headache,Heart Disease,Sedentary,Aspirin,3,6,33.8,124/70,117
+735,39,Female,chest pain dizziness,Diabetes,Active,Insulin,4,4,30.1,137/84,161
+736,25,Male,chest pain dizziness,Asthma,Sedentary,Salbutamol,1,3,23.7,119/89,141
+737,48,Male,nausea light sensitivity,Asthma,Moderate,Inhaler,3,6,20.4,134/74,76
+738,67,Male,high bp headache,Hypertension,Active,Amlodipine,1,1,28.3,135/83,102
+739,22,Male,fever cough headache,Heart Disease,Moderate,Aspirin,1,6,20.9,127/88,90
+740,47,Male,chest pain dizziness,Asthma,Sedentary,Inhaler,4,0,30.8,122/83,179
+741,39,Female,chest pain dizziness,Diabetes,Moderate,Metformin,1,0,23.6,118/81,181
+742,44,Female,breathing problem wheezing,Asthma,Active,Inhaler,3,0,18.3,113/72,194
+743,56,Male,fever cough headache,Migraine,Active,Ibuprofen,4,2,25.8,139/72,128
+744,34,Male,high bp headache,Flu,Moderate,Cough Syrup,2,4,30.2,115/75,177
+745,43,Male,chest pain dizziness,Heart Disease,Active,Statin,1,1,23.4,119/86,179
+746,53,Female,breathing problem wheezing,Diabetes,Active,Insulin,2,6,28.0,132/79,153
+747,20,Male,high bp headache,Asthma,Active,Salbutamol,1,3,27.3,127/87,135
+748,51,Male,fatigue thirst frequent urination,Heart Disease,Active,Statin,2,6,29.4,121/82,142
+749,40,Male,breathing problem wheezing,Flu,Sedentary,Paracetamol,4,0,25.6,139/86,152
+750,43,Female,high bp headache,Asthma,Sedentary,Salbutamol,4,1,30.3,111/72,117
+751,32,Female,nausea light sensitivity,Hypertension,Active,Losartan,3,5,24.6,130/70,119
+752,68,Female,nausea light sensitivity,Asthma,Sedentary,Salbutamol,2,1,23.5,119/76,191
+753,23,Female,chest pain dizziness,Flu,Sedentary,Cough Syrup,1,0,24.5,135/77,117
+754,43,Female,fever cough headache,Migraine,Active,Sumatriptan,2,2,30.0,128/70,122
+755,18,Female,chest pain dizziness,Migraine,Sedentary,Sumatriptan,1,5,21.6,115/72,187
+756,36,Female,high bp headache,Migraine,Active,Sumatriptan,2,2,26.5,135/89,75
+757,34,Male,nausea light sensitivity,Heart Disease,Moderate,Statin,1,1,26.2,116/84,111
+758,30,Male,fatigue thirst frequent urination,Hypertension,Sedentary,Amlodipine,1,4,31.4,115/88,94
+759,66,Male,nausea light sensitivity,Asthma,Sedentary,Inhaler,3,2,24.0,130/82,80
+760,64,Male,nausea light sensitivity,Hypertension,Sedentary,Losartan,3,0,23.7,111/90,162
+761,68,Male,nausea light sensitivity,Diabetes,Active,Insulin,1,1,24.4,110/89,76
+762,28,Female,breathing problem wheezing,Asthma,Sedentary,Salbutamol,3,6,30.4,136/75,158
+763,41,Female,high bp headache,Asthma,Sedentary,Salbutamol,2,5,30.7,126/72,89
+764,34,Female,fatigue thirst frequent urination,Asthma,Active,Inhaler,5,4,21.7,111/73,106
+765,70,Male,nausea light sensitivity,Heart Disease,Sedentary,Statin,5,1,24.0,115/84,88
+766,43,Female,breathing problem wheezing,Migraine,Active,Ibuprofen,1,3,33.0,115/80,173
+767,40,Female,breathing problem wheezing,Diabetes,Sedentary,Insulin,2,4,23.8,140/77,95
+768,54,Female,fatigue thirst frequent urination,Hypertension,Sedentary,Losartan,3,5,32.7,124/89,146
+769,54,Male,fatigue thirst frequent urination,Heart Disease,Active,Aspirin,5,2,30.5,118/74,89
+770,63,Female,breathing problem wheezing,Diabetes,Active,Insulin,3,6,33.6,122/87,97
+771,55,Male,high bp headache,Flu,Moderate,Paracetamol,4,4,30.8,138/70,98
+772,54,Male,breathing problem wheezing,Migraine,Active,Sumatriptan,2,1,34.5,115/83,146
+773,24,Male,chest pain dizziness,Migraine,Sedentary,Ibuprofen,5,3,25.3,114/86,108
+774,63,Female,chest pain dizziness,Flu,Moderate,Cough Syrup,1,1,29.3,110/71,197
+775,58,Male,breathing problem wheezing,Diabetes,Active,Metformin,3,3,21.1,131/83,84
+776,59,Male,fever cough headache,Heart Disease,Sedentary,Statin,4,1,29.9,114/88,170
+777,60,Male,breathing problem wheezing,Hypertension,Sedentary,Amlodipine,3,1,34.0,131/81,137
+778,36,Female,fatigue thirst frequent urination,Heart Disease,Active,Aspirin,5,3,22.0,122/74,109
+779,50,Male,fatigue thirst frequent urination,Hypertension,Moderate,Amlodipine,3,6,31.0,122/90,71
+780,19,Male,nausea light sensitivity,Hypertension,Active,Amlodipine,2,1,26.9,140/73,191
+781,49,Male,breathing problem wheezing,Asthma,Sedentary,Salbutamol,4,5,23.1,131/88,136
+782,38,Male,chest pain dizziness,Migraine,Moderate,Ibuprofen,1,6,26.7,118/87,137
+783,27,Female,chest pain dizziness,Asthma,Active,Salbutamol,3,5,22.3,121/74,125
+784,53,Male,high bp headache,Flu,Moderate,Cough Syrup,3,1,23.0,135/73,101
+785,60,Female,nausea light sensitivity,Migraine,Sedentary,Ibuprofen,5,2,31.3,129/73,127
+786,47,Female,fever cough headache,Flu,Moderate,Paracetamol,4,2,31.8,126/78,88
+787,30,Female,chest pain dizziness,Asthma,Active,Salbutamol,4,5,31.8,126/86,170
+788,48,Female,nausea light sensitivity,Diabetes,Sedentary,Metformin,3,3,26.5,125/82,89
+789,21,Male,nausea light sensitivity,Flu,Sedentary,Cough Syrup,3,0,32.6,126/83,89
+790,24,Male,breathing problem wheezing,Asthma,Moderate,Inhaler,4,0,21.1,111/90,184
+791,33,Female,fever cough headache,Asthma,Active,Salbutamol,4,2,33.2,115/73,103
+792,22,Male,nausea light sensitivity,Heart Disease,Active,Statin,4,5,25.4,125/89,126
+793,47,Male,high bp headache,Asthma,Moderate,Salbutamol,1,5,24.6,113/83,117
+794,23,Male,breathing problem wheezing,Hypertension,Moderate,Losartan,3,6,26.6,115/89,176
+795,65,Male,fever cough headache,Asthma,Active,Salbutamol,3,5,30.4,132/81,143
+796,60,Female,breathing problem wheezing,Migraine,Moderate,Sumatriptan,5,6,25.8,126/70,147
+797,30,Male,fatigue thirst frequent urination,Diabetes,Active,Metformin,3,0,28.3,115/90,147
+798,32,Male,breathing problem wheezing,Asthma,Sedentary,Salbutamol,5,3,25.2,140/87,84
+799,65,Female,fatigue thirst frequent urination,Migraine,Active,Sumatriptan,5,1,24.0,110/78,88
+800,67,Female,fatigue thirst frequent urination,Asthma,Active,Salbutamol,1,4,21.1,127/82,169
+801,57,Female,high bp headache,Flu,Moderate,Cough Syrup,3,0,24.9,137/89,186
+802,67,Male,fatigue thirst frequent urination,Migraine,Active,Ibuprofen,3,2,22.2,121/76,88
+803,18,Female,fatigue thirst frequent urination,Asthma,Sedentary,Inhaler,4,0,32.6,131/73,165
+804,42,Female,breathing problem wheezing,Heart Disease,Active,Aspirin,4,6,30.8,125/85,169
+805,33,Male,high bp headache,Diabetes,Sedentary,Insulin,3,2,27.1,133/76,86
+806,24,Male,nausea light sensitivity,Hypertension,Sedentary,Amlodipine,3,4,23.1,139/74,123
+807,29,Male,fatigue thirst frequent urination,Hypertension,Sedentary,Losartan,3,5,21.7,132/78,100
+808,52,Male,fever cough headache,Flu,Active,Cough Syrup,2,0,18.2,129/77,71
+809,51,Female,high bp headache,Flu,Moderate,Cough Syrup,4,6,22.8,126/80,147
+810,18,Male,nausea light sensitivity,Heart Disease,Active,Statin,2,6,32.8,113/89,194
+811,45,Female,breathing problem wheezing,Hypertension,Moderate,Amlodipine,2,6,19.6,137/75,184
+812,34,Male,nausea light sensitivity,Flu,Moderate,Paracetamol,3,4,33.3,123/88,148
+813,69,Male,fatigue thirst frequent urination,Diabetes,Active,Metformin,1,2,27.7,113/87,195
+814,24,Female,high bp headache,Diabetes,Moderate,Metformin,3,5,32.7,120/74,90
+815,49,Female,breathing problem wheezing,Diabetes,Moderate,Insulin,3,4,22.7,120/73,147
+816,19,Male,chest pain dizziness,Migraine,Moderate,Sumatriptan,1,5,19.9,119/85,106
+817,42,Male,high bp headache,Hypertension,Sedentary,Losartan,5,3,28.2,110/70,172
+818,67,Female,nausea light sensitivity,Flu,Sedentary,Paracetamol,5,2,23.1,136/77,103
+819,40,Male,fever cough headache,Flu,Sedentary,Cough Syrup,3,5,26.9,119/70,144
+820,44,Male,nausea light sensitivity,Hypertension,Active,Losartan,3,2,18.3,119/89,184
+821,40,Male,high bp headache,Heart Disease,Active,Statin,2,5,21.8,117/78,119
+822,34,Female,fever cough headache,Flu,Sedentary,Paracetamol,1,4,21.0,110/88,93
+823,51,Male,fever cough headache,Hypertension,Moderate,Losartan,5,2,20.2,114/85,191
+824,45,Male,nausea light sensitivity,Hypertension,Moderate,Losartan,2,6,33.6,115/80,99
+825,67,Female,nausea light sensitivity,Diabetes,Moderate,Insulin,4,3,27.1,132/90,168
+826,58,Female,fatigue thirst frequent urination,Migraine,Moderate,Sumatriptan,3,2,31.3,137/90,166
+827,18,Female,breathing problem wheezing,Heart Disease,Moderate,Aspirin,2,4,19.1,128/84,134
+828,32,Male,nausea light sensitivity,Asthma,Active,Salbutamol,1,3,29.7,133/90,153
+829,58,Male,breathing problem wheezing,Hypertension,Sedentary,Amlodipine,2,1,30.9,117/86,95
+830,45,Female,chest pain dizziness,Diabetes,Sedentary,Metformin,2,2,29.5,116/77,157
+831,59,Male,breathing problem wheezing,Hypertension,Moderate,Amlodipine,2,6,26.2,123/78,178
+832,47,Male,high bp headache,Migraine,Sedentary,Sumatriptan,5,6,23.4,136/73,141
+833,36,Female,chest pain dizziness,Hypertension,Sedentary,Losartan,2,5,28.8,132/76,106
+834,19,Female,high bp headache,Diabetes,Moderate,Insulin,4,3,23.7,123/85,96
+835,37,Female,fever cough headache,Heart Disease,Active,Aspirin,2,0,32.1,116/86,133
+836,41,Male,chest pain dizziness,Asthma,Sedentary,Salbutamol,5,6,18.6,118/76,188
+837,35,Male,nausea light sensitivity,Hypertension,Active,Amlodipine,4,2,23.1,122/73,198
+838,69,Male,breathing problem wheezing,Migraine,Sedentary,Ibuprofen,5,3,30.4,119/76,175
+839,62,Male,fever cough headache,Hypertension,Active,Amlodipine,3,2,25.9,121/82,74
+840,64,Female,nausea light sensitivity,Flu,Sedentary,Paracetamol,3,3,25.6,110/78,72
+841,61,Female,chest pain dizziness,Flu,Sedentary,Cough Syrup,2,3,19.5,137/81,148
+842,39,Female,breathing problem wheezing,Hypertension,Moderate,Losartan,5,0,22.7,112/86,163
+843,29,Female,chest pain dizziness,Migraine,Active,Ibuprofen,4,5,27.1,115/77,109
+844,48,Male,nausea light sensitivity,Migraine,Moderate,Ibuprofen,4,3,28.1,140/88,177
+845,51,Female,chest pain dizziness,Heart Disease,Moderate,Statin,3,6,22.8,111/70,73
+846,61,Female,high bp headache,Asthma,Active,Salbutamol,4,0,21.3,120/78,70
+847,48,Female,fever cough headache,Flu,Moderate,Cough Syrup,2,6,33.1,135/90,112
+848,40,Male,breathing problem wheezing,Heart Disease,Moderate,Aspirin,3,1,25.7,123/71,179
+849,25,Male,nausea light sensitivity,Hypertension,Active,Amlodipine,1,5,34.2,127/72,99
+850,46,Female,nausea light sensitivity,Flu,Sedentary,Cough Syrup,3,5,34.4,113/75,189
+851,60,Male,high bp headache,Migraine,Sedentary,Sumatriptan,5,1,24.0,132/74,199
+852,50,Male,fever cough headache,Asthma,Moderate,Inhaler,3,6,18.1,121/71,84
+853,62,Female,fatigue thirst frequent urination,Hypertension,Moderate,Losartan,2,1,18.3,115/90,117
+854,35,Female,chest pain dizziness,Diabetes,Sedentary,Insulin,2,4,34.6,130/70,88
+855,51,Male,high bp headache,Migraine,Moderate,Ibuprofen,3,1,29.5,135/82,82
+856,53,Female,fever cough headache,Flu,Sedentary,Cough Syrup,2,1,18.3,110/78,123
+857,24,Female,fatigue thirst frequent urination,Hypertension,Active,Losartan,2,2,29.0,110/86,135
+858,53,Female,chest pain dizziness,Asthma,Sedentary,Salbutamol,5,6,20.5,132/73,100
+859,52,Female,nausea light sensitivity,Heart Disease,Active,Statin,4,6,34.6,125/90,193
+860,26,Female,chest pain dizziness,Migraine,Moderate,Sumatriptan,4,1,27.4,132/75,141
+861,70,Male,fatigue thirst frequent urination,Flu,Sedentary,Paracetamol,1,5,20.9,121/72,166
+862,37,Female,chest pain dizziness,Heart Disease,Sedentary,Aspirin,3,1,32.5,118/78,190
+863,36,Male,nausea light sensitivity,Hypertension,Active,Losartan,3,5,28.6,116/89,189
+864,70,Male,fatigue thirst frequent urination,Flu,Sedentary,Cough Syrup,4,3,29.0,135/84,72
+865,56,Female,fatigue thirst frequent urination,Heart Disease,Moderate,Statin,5,1,30.9,113/71,141
+866,30,Female,fatigue thirst frequent urination,Flu,Active,Paracetamol,3,2,19.1,130/80,88
+867,60,Male,nausea light sensitivity,Migraine,Sedentary,Ibuprofen,2,1,27.0,138/87,186
+868,52,Female,breathing problem wheezing,Flu,Sedentary,Paracetamol,2,0,29.3,124/85,71
+869,27,Female,fever cough headache,Heart Disease,Moderate,Statin,5,6,25.1,126/76,88
+870,32,Female,fatigue thirst frequent urination,Diabetes,Active,Insulin,1,2,29.8,111/82,152
+871,52,Male,fatigue thirst frequent urination,Heart Disease,Moderate,Aspirin,4,0,25.1,111/74,200
+872,68,Male,fatigue thirst frequent urination,Heart Disease,Moderate,Statin,2,1,33.0,140/72,135
+873,52,Male,fever cough headache,Flu,Sedentary,Cough Syrup,1,1,28.0,114/74,198
+874,44,Female,high bp headache,Asthma,Sedentary,Salbutamol,5,3,22.1,125/84,150
+875,69,Female,high bp headache,Hypertension,Active,Amlodipine,2,5,25.9,140/84,77
+876,46,Female,fatigue thirst frequent urination,Asthma,Sedentary,Inhaler,3,4,33.3,123/75,146
+877,53,Female,fever cough headache,Asthma,Active,Salbutamol,2,4,18.5,136/80,165
+878,43,Male,fever cough headache,Flu,Moderate,Cough Syrup,1,4,27.9,128/86,147
+879,70,Female,fever cough headache,Heart Disease,Sedentary,Statin,4,0,31.0,114/73,98
+880,53,Female,high bp headache,Migraine,Moderate,Sumatriptan,2,3,33.5,113/76,149
+881,69,Female,chest pain dizziness,Diabetes,Moderate,Metformin,1,0,25.3,135/89,194
+882,31,Female,fatigue thirst frequent urination,Diabetes,Active,Metformin,3,2,28.8,138/77,174
+883,29,Male,nausea light sensitivity,Asthma,Sedentary,Salbutamol,5,3,25.0,136/80,74
+884,21,Female,chest pain dizziness,Migraine,Sedentary,Ibuprofen,4,0,27.5,113/89,129
+885,24,Male,nausea light sensitivity,Heart Disease,Active,Aspirin,1,0,33.3,130/88,95
+886,50,Male,breathing problem wheezing,Hypertension,Sedentary,Amlodipine,5,2,34.0,110/70,173
+887,44,Female,fever cough headache,Heart Disease,Active,Statin,1,0,18.1,132/87,193
+888,64,Male,high bp headache,Asthma,Moderate,Salbutamol,5,3,20.9,114/79,98
+889,18,Male,nausea light sensitivity,Diabetes,Moderate,Insulin,5,5,27.6,110/87,86
+890,60,Male,fever cough headache,Diabetes,Moderate,Metformin,3,6,20.9,122/80,77
+891,28,Male,nausea light sensitivity,Diabetes,Active,Metformin,3,1,23.8,124/85,87
+892,36,Female,nausea light sensitivity,Migraine,Active,Sumatriptan,1,6,24.3,123/84,147
+893,66,Male,high bp headache,Flu,Moderate,Cough Syrup,2,5,18.1,121/89,122
+894,68,Female,chest pain dizziness,Flu,Moderate,Cough Syrup,1,2,27.5,134/72,166
+895,47,Male,high bp headache,Heart Disease,Sedentary,Aspirin,3,0,26.3,118/88,110
+896,50,Female,breathing problem wheezing,Asthma,Sedentary,Salbutamol,5,5,20.8,139/77,195
+897,55,Female,chest pain dizziness,Migraine,Sedentary,Ibuprofen,4,4,18.6,130/80,144
+898,45,Male,high bp headache,Hypertension,Moderate,Amlodipine,4,4,18.8,110/70,173
+899,29,Male,fatigue thirst frequent urination,Migraine,Active,Sumatriptan,3,5,23.6,132/82,192
+900,35,Female,high bp headache,Diabetes,Active,Metformin,2,4,27.9,111/81,150
+901,62,Male,nausea light sensitivity,Diabetes,Active,Metformin,4,6,21.8,121/75,87
+902,70,Female,chest pain dizziness,Asthma,Sedentary,Inhaler,4,3,25.6,121/78,78
+903,52,Female,high bp headache,Flu,Moderate,Paracetamol,4,6,26.3,118/87,184
+904,61,Female,high bp headache,Flu,Moderate,Cough Syrup,4,1,29.7,130/83,191
+905,42,Female,nausea light sensitivity,Flu,Moderate,Paracetamol,2,4,21.8,136/74,146
+906,37,Female,breathing problem wheezing,Asthma,Active,Salbutamol,5,5,29.0,133/87,121
+907,56,Male,chest pain dizziness,Heart Disease,Moderate,Aspirin,1,3,33.0,115/85,156
+908,44,Female,chest pain dizziness,Flu,Active,Cough Syrup,4,3,23.9,120/87,178
+909,48,Female,fatigue thirst frequent urination,Diabetes,Sedentary,Metformin,4,3,32.9,138/82,81
+910,28,Female,chest pain dizziness,Hypertension,Active,Amlodipine,2,2,34.6,110/72,111
+911,23,Male,chest pain dizziness,Hypertension,Moderate,Losartan,1,0,23.4,130/76,137
+912,55,Male,fever cough headache,Flu,Active,Cough Syrup,5,5,31.7,139/88,96
+913,53,Female,nausea light sensitivity,Hypertension,Sedentary,Losartan,1,1,32.1,132/82,167
+914,29,Female,fatigue thirst frequent urination,Flu,Sedentary,Paracetamol,5,3,19.5,120/77,122
+915,52,Male,nausea light sensitivity,Asthma,Active,Salbutamol,5,5,29.7,126/88,96
+916,61,Male,chest pain dizziness,Diabetes,Sedentary,Insulin,3,0,34.4,125/76,183
+917,62,Female,chest pain dizziness,Heart Disease,Sedentary,Statin,4,5,31.6,132/79,106
+918,49,Female,chest pain dizziness,Migraine,Moderate,Ibuprofen,3,1,24.9,119/70,175
+919,27,Female,nausea light sensitivity,Hypertension,Moderate,Losartan,1,2,25.0,124/79,182
+920,49,Male,breathing problem wheezing,Asthma,Moderate,Inhaler,1,5,21.1,118/72,172
+921,38,Female,breathing problem wheezing,Heart Disease,Active,Aspirin,2,1,28.6,115/79,186
+922,35,Male,breathing problem wheezing,Diabetes,Moderate,Insulin,4,5,19.5,138/88,108
+923,54,Male,fatigue thirst frequent urination,Asthma,Active,Inhaler,3,0,18.7,128/72,175
+924,66,Male,chest pain dizziness,Asthma,Moderate,Salbutamol,4,0,18.2,117/81,187
+925,25,Male,fatigue thirst frequent urination,Diabetes,Sedentary,Metformin,1,4,18.4,118/79,114
+926,20,Male,nausea light sensitivity,Asthma,Active,Inhaler,3,5,21.6,133/70,113
+927,30,Female,chest pain dizziness,Heart Disease,Active,Statin,1,5,30.7,133/74,184
+928,18,Female,fever cough headache,Diabetes,Moderate,Metformin,5,0,23.9,138/77,101
+929,25,Female,fever cough headache,Hypertension,Sedentary,Amlodipine,1,2,30.7,118/72,95
+930,54,Male,chest pain dizziness,Migraine,Sedentary,Ibuprofen,4,6,23.6,135/85,161
+931,29,Female,nausea light sensitivity,Heart Disease,Sedentary,Statin,2,5,21.8,134/86,173
+932,36,Male,fever cough headache,Heart Disease,Moderate,Statin,1,5,29.8,139/87,189
+933,27,Female,chest pain dizziness,Hypertension,Active,Amlodipine,2,1,33.8,117/82,153
+934,31,Female,chest pain dizziness,Diabetes,Moderate,Insulin,4,3,32.4,123/87,76
+935,21,Female,breathing problem wheezing,Heart Disease,Sedentary,Statin,5,5,22.1,112/77,190
+936,18,Male,nausea light sensitivity,Hypertension,Sedentary,Amlodipine,4,5,21.9,137/90,73
+937,60,Male,nausea light sensitivity,Diabetes,Moderate,Metformin,2,6,27.5,121/85,175
+938,25,Male,high bp headache,Heart Disease,Moderate,Statin,2,1,20.9,130/89,161
+939,55,Male,high bp headache,Migraine,Active,Sumatriptan,5,6,26.3,123/74,123
+940,18,Female,high bp headache,Hypertension,Moderate,Losartan,5,0,18.2,133/79,70
+941,39,Male,breathing problem wheezing,Asthma,Active,Inhaler,3,6,20.3,117/84,113
+942,69,Female,high bp headache,Asthma,Sedentary,Inhaler,1,0,28.5,119/81,120
+943,43,Male,chest pain dizziness,Flu,Active,Cough Syrup,2,4,24.6,121/90,155
+944,65,Male,fatigue thirst frequent urination,Asthma,Moderate,Salbutamol,4,1,23.1,114/70,107
+945,59,Male,chest pain dizziness,Diabetes,Sedentary,Metformin,4,2,24.1,116/83,117
+946,35,Male,nausea light sensitivity,Heart Disease,Active,Statin,2,2,20.0,126/88,80
+947,47,Male,breathing problem wheezing,Diabetes,Sedentary,Insulin,3,5,29.7,119/72,150
+948,32,Female,breathing problem wheezing,Flu,Active,Cough Syrup,5,4,26.5,122/87,157
+949,24,Female,nausea light sensitivity,Diabetes,Active,Metformin,5,4,18.4,130/81,135
+950,69,Female,breathing problem wheezing,Diabetes,Active,Insulin,2,2,34.0,130/87,191
+951,35,Male,breathing problem wheezing,Asthma,Active,Salbutamol,4,6,32.1,137/70,113
+952,22,Male,high bp headache,Hypertension,Sedentary,Amlodipine,3,1,18.2,114/82,195
+953,44,Female,high bp headache,Asthma,Sedentary,Inhaler,4,5,26.2,130/85,146
+954,44,Female,breathing problem wheezing,Migraine,Active,Ibuprofen,4,0,29.6,115/78,123
+955,28,Female,fever cough headache,Diabetes,Moderate,Insulin,5,2,28.7,131/82,95
+956,21,Male,chest pain dizziness,Flu,Moderate,Cough Syrup,3,2,33.3,130/82,175
+957,20,Female,fatigue thirst frequent urination,Diabetes,Active,Metformin,3,4,24.1,124/78,141
+958,50,Female,fever cough headache,Asthma,Active,Salbutamol,4,4,25.6,122/75,188
+959,40,Female,fatigue thirst frequent urination,Flu,Sedentary,Paracetamol,3,6,20.4,112/76,151
+960,31,Male,fatigue thirst frequent urination,Asthma,Moderate,Salbutamol,3,6,27.0,134/76,77
+961,24,Male,fever cough headache,Diabetes,Sedentary,Insulin,1,5,34.4,134/79,111
+962,31,Male,fever cough headache,Hypertension,Active,Amlodipine,1,6,23.5,116/90,118
+963,25,Male,nausea light sensitivity,Flu,Moderate,Cough Syrup,4,4,18.3,113/74,167
+964,63,Female,fatigue thirst frequent urination,Asthma,Moderate,Inhaler,5,5,20.2,123/82,71
+965,51,Male,fever cough headache,Migraine,Active,Sumatriptan,1,2,23.8,125/73,83
+966,40,Female,high bp headache,Flu,Active,Cough Syrup,5,5,20.2,126/85,119
+967,25,Male,chest pain dizziness,Migraine,Sedentary,Sumatriptan,2,6,20.9,118/86,121
+968,53,Male,fatigue thirst frequent urination,Hypertension,Sedentary,Losartan,3,3,31.5,117/70,173
+969,63,Female,fever cough headache,Diabetes,Active,Metformin,5,1,20.4,115/84,72
+970,42,Female,fever cough headache,Flu,Moderate,Paracetamol,1,4,21.2,114/89,83
+971,50,Female,nausea light sensitivity,Migraine,Sedentary,Sumatriptan,5,5,29.4,128/79,98
+972,66,Male,high bp headache,Diabetes,Active,Metformin,5,2,23.9,122/82,91
+973,25,Male,high bp headache,Diabetes,Sedentary,Insulin,3,0,19.3,120/78,173
+974,27,Male,breathing problem wheezing,Flu,Active,Paracetamol,3,2,18.6,128/72,128
+975,45,Male,nausea light sensitivity,Heart Disease,Sedentary,Aspirin,5,2,27.0,140/81,140
+976,28,Male,chest pain dizziness,Hypertension,Moderate,Losartan,1,3,23.7,127/75,126
+977,27,Male,fatigue thirst frequent urination,Diabetes,Sedentary,Metformin,4,6,24.5,118/71,187
+978,43,Male,fever cough headache,Heart Disease,Moderate,Aspirin,5,5,19.4,131/72,189
+979,70,Male,breathing problem wheezing,Heart Disease,Sedentary,Aspirin,2,5,31.2,126/79,192
+980,25,Male,high bp headache,Diabetes,Sedentary,Metformin,3,3,29.0,112/83,106
+981,46,Male,breathing problem wheezing,Migraine,Sedentary,Ibuprofen,5,2,28.1,119/71,134
+982,65,Female,high bp headache,Hypertension,Moderate,Amlodipine,5,4,21.3,122/87,85
+983,64,Female,fatigue thirst frequent urination,Asthma,Sedentary,Inhaler,4,5,18.8,120/78,173
+984,46,Male,breathing problem wheezing,Heart Disease,Moderate,Aspirin,1,6,29.7,124/87,106
+985,24,Female,high bp headache,Diabetes,Moderate,Metformin,1,4,23.1,129/72,196
+986,36,Female,fever cough headache,Migraine,Active,Sumatriptan,4,4,18.7,115/70,107
+987,33,Male,fever cough headache,Asthma,Sedentary,Salbutamol,3,2,23.7,113/76,83
+988,22,Female,fatigue thirst frequent urination,Hypertension,Moderate,Amlodipine,4,1,33.1,119/74,103
+989,18,Male,fatigue thirst frequent urination,Migraine,Moderate,Ibuprofen,4,2,28.1,120/82,171
+990,70,Male,high bp headache,Heart Disease,Moderate,Statin,3,1,22.6,123/89,197
+991,34,Female,fatigue thirst frequent urination,Heart Disease,Moderate,Aspirin,3,1,22.7,111/80,107
+992,19,Female,nausea light sensitivity,Flu,Sedentary,Cough Syrup,4,3,24.7,118/79,169
+993,38,Male,high bp headache,Migraine,Active,Sumatriptan,4,6,23.2,139/89,180
+994,21,Male,high bp headache,Heart Disease,Sedentary,Aspirin,2,0,30.3,119/79,74
+995,34,Female,fever cough headache,Migraine,Moderate,Sumatriptan,4,0,21.1,139/72,174
+996,42,Female,chest pain dizziness,Migraine,Active,Ibuprofen,3,2,28.4,110/70,104
+997,67,Female,fever cough headache,Migraine,Active,Sumatriptan,2,6,26.0,110/87,158
+998,51,Male,nausea light sensitivity,Hypertension,Active,Losartan,1,3,30.0,117/82,139
+999,65,Female,nausea light sensitivity,Diabetes,Active,Insulin,1,2,30.7,124/72,83
+1000,21,Female,fever cough headache,Hypertension,Moderate,Amlodipine,3,4,34.6,139/77,84
