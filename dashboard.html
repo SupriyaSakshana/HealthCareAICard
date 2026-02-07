@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Dashboard</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Style -->
+    <style>
+
+        /* ===== GLOBAL BACKGROUND ===== */
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: "Segoe UI", sans-serif;
+
+            background:
+                linear-gradient(
+                    rgba(10, 40, 80, 0.75),
+                    rgba(10, 40, 80, 0.75)
+                ),
+                url("/static/uploads/image.png");
+
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+
+            color: white;
+        }
+
+
+        /* ===== GLASS CARD ===== */
+        .glass-card {
+
+            background: rgba(255, 255, 255, 0.15);
+
+            backdrop-filter: blur(12px);
+
+            border-radius: 18px;
+
+            padding: 30px;
+
+            box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+        }
+
+
+        /* ===== MAIN BUTTON (PREDICT) ===== */
+        .btn-main {
+
+            background: linear-gradient(to right, #005bea, #00c6fb);
+
+            border: none;
+
+            color: white;
+
+            font-weight: 600;
+
+            padding: 12px;
+        }
+
+        .btn-main:hover {
+
+            transform: scale(1.03);
+
+            transition: 0.3s;
+        }
+
+
+        /* ===== BLUE BUTTON (PROFILE + LOGOUT) ===== */
+        .btn-blue {
+
+            background: linear-gradient(to right, #0f3057, #1b4f8a);
+
+            border: none;
+
+            color: white;
+
+            font-weight: 600;
+
+            padding: 12px;
+        }
+
+        .btn-blue:hover {
+
+            transform: scale(1.03);
+
+            transition: 0.3s;
+        }
+
+
+        /* ===== DISEASE RESULT BOX ===== */
+        .alert-blue {
+
+            background: linear-gradient(to right, #0f3057, #1b4f8a);
+
+            color: white;
+
+            border: none;
+
+            text-align: center;
+
+            padding: 15px;
+
+            border-radius: 10px;
+        }
+
+
+        /* ===== TABLE ===== */
+        .table {
+
+            color: white;
+        }
+
+        .table thead {
+
+            background: rgba(0,0,0,0.6);
+        }
+
+        .table tbody tr {
+
+            background: rgba(255,255,255,0.05);
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<div class="container mt-5">
+
+    <div class="glass-card">
+
+
+        <!-- Heading -->
+        <h2 class="text-center mb-4">
+            Hello {{ user.name }}
+        </h2>
+
+
+
+        <!-- Predict Button -->
+        <form method="POST">
+
+            <button type="submit"
+                    class="btn btn-main w-100 mb-3">
+
+                 Predict Disease
+
+            </button>
+
+        </form>
+
+
+
+        <!-- Disease Result -->
+        {% if disease %}
+
+        <div class="alert alert-blue mt-3">
+
+            <h5> Predicted Disease</h5>
+
+            <h4>{{ disease }}</h4>
+
+        </div>
+
+        {% endif %}
+
+
+
+
+        <!-- Recommendations -->
+        {% if recommendations %}
+
+        <h5 class="text-center mt-4">
+             Medicine Recommendations
+        </h5>
+
+
+        <table class="table table-bordered text-center mt-3">
+
+            <thead>
+
+                <tr>
+                    <th>Medicine</th>
+                    <th>Confidence</th>
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+
+            {% for item, score in recommendations.items() %}
+
+                <tr>
+
+                    <td>{{ item }}</td>
+
+                    <td>{{ (score*100)|round(1) }}%</td>
+
+                </tr>
+
+            {% endfor %}
+
+            </tbody>
+
+        </table>
+
+        {% endif %}
+
+
+
+
+        <!-- Buttons -->
+        <a href="/profile"
+           class="btn btn-blue w-100 mb-3">
+
+             View Profile
+
+        </a>
+
+
+        <a href="/logout"
+           class="btn btn-blue w-100 mt-2">
+
+             Logout
+
+        </a>
+
+
+
+    </div>
+
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
