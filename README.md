@@ -1,7 +1,8 @@
 # HealthCareAICard
 This project is an AI-powered healthcare 
 Hybrid Recommendation System that combines:
-<img width="1345" height="439" alt="image" src="https://github.com/user-attachments/assets/cbe55cc0-c65a-4333-ac96-44e771504e5b" />
+<img width="1332" height="307" alt="image" src="https://github.com/user-attachments/assets/acb9ca3f-3c1b-4056-8b6a-948ef13fdf8a" />
+
 
 
 
